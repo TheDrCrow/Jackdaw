@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href = "tnm.css">
+    <title>TNM 8e</title>
+  </head>
+  <body>
+    <br>
+    <div class = 'container' , id = 'title'>
+        <h3>Usual Carcinoma</h3>
+    </div>
+    <div class= 'container'>
+        <p style = "text-align: center";>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tumour">Tumour</button>
+            <button class='btn btn-warning' type='button' data-toggle='collapse' data-target="#nodes">Nodes</button>
+            <button class="btn btn-danger" type='button' data-toggle="collapse" data-target="#metastases">Metastases</button>
+            <button class='btn btn-success' type='button' data-toggle="collapse" data-target="#stage">Stage</button>
+        </p>
+        <div class="collapse" id="tumour">
+            <div class = 'container'> 
+            <h4>Tumour</h4>
+            <table class="table table-bordered table-info table-small">
+              <thead>
+                <tr>
+                  <th scope="col">T</th>
+                  <th scope="col">Feature</th>
+                  <th scope="col">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Pre-T1</th>
+                  <td>Tiny</td>
+                  <td>Really small</td>
+                </tr>
+                <tr>
+                  <th scope="row">T1</th>
+                  <td>Not much here</td>
+                  <td>Look close</td>
+                </tr>
+                <tr>
+                  <th scope="row">T2</th>
+                  <td>It is quite big</td>
+                  <td>Oh there is it</td>
+                </tr>
+                <tr>
+                  <th scope="row">T3</th>
+                  <td>Getting invasive</td>
+                  <td>Nasty!</td>
+                </tr>
+                <tr>
+                  <th scope='row'>T4</th>
+                  <td>Oh dear there is no point</td>
+                  <td>Im looking away</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>         
+          </div>
+        <div class="collapse" id="nodes">
+            <div class = 'container'>
+            <h4>Nodes</h4>
+            <table class="table table-bordered table-warning table-small">
+              <thead>
+                <tr>
+                  <th scope="col">N</th>
+                  <th scope="col">Feature</th>
+                  <th scope="col">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">N1</th>
+                  <td>Not much here</td>
+                  <td>Look close</td>
+                </tr>
+                <tr>
+                  <th scope="row">N2</th>
+                  <td>It is quite big</td>
+                  <td>Oh there is it</td>
+                </tr>
+                <tr>
+                  <th scope="row">N3</th>
+                  <td>Getting invasive</td>
+                  <td>Nasty!</td>
+                </tr>
+                <tr>
+                  <th scope='row'>Others</th>
+                  <td>Oh dear there is no point</td>
+                  <td>Im looking away</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+        </div>
+        <div class = 'collapse' id='metastases'>
+            <div class = 'container'>
+            <h4>Metastases</h4>
+            <table class="table table-bordered table-danger table-small">
+              <thead>
+                <tr>
+                  <th scope="col">M</th>
+                  <th scope="col">Feature</th>
+                  <th scope="col">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">M1</th>
+                  <td>Not much here</td>
+                  <td>Look close</td>
+                </tr>
+                <tr>
+                  <th scope="row">M1b</th>
+                  <td>It is quite big</td>
+                  <td>Oh there is it</td>
+                </tr>
+                <tr>
+                  <th scope="row">M2</th>
+                  <td>Getting invasive</td>
+                  <td>Nasty!</td>
+                </tr>
+                <tr>
+                  <th scope='row'>Others</th>
+                  <td>Oh dear there is no point</td>
+                  <td>Im looking away</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+        </div>
+         <div class="collapse" id="stage">
+            <div class = 'container'> 
+            <h4>Stage</h4>
+            <table class="table table-bordered table-success table-small">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">N0</th>
+                  <th scope="col">N1</th>
+                  <th scope="col">N2</th>
+                  <th scope="col">N3</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope='row'>T1</th>
+                  <td>I</td>
+                  <td>I</td>
+                  <td>I</td>
+                  <td>II</td>
+                </tr>
+                <tr>
+                  <th scope="row">T2</th>
+                  <td>I</td>
+                  <td>II</td>
+                  <td>II</td>
+                  <td>II</td>
+                </tr>
+                <tr>
+                  <th scope="row">T3</th>
+                  <td>II</td>
+                  <td>II</td>
+                  <td>III</td>
+                  <td>III</td>
+                </tr>
+                <tr>
+                  <th scope="row">T4</th>
+                  <td>III</td>
+                  <td>III</td>
+                  <td>III</td>
+                  <td>III</td>
+                </tr>
+                <tr>
+                  <th scope="row">M1</th>
+                  <td>III</td>
+                  <td>IV</td>
+                  <td>IV</td>
+                  <td>IV</td>
+                </tr>
+                <tr>
+                  <th scope="row">M2</th>
+                  <td>III</td>
+                  <td>IV</td>
+                  <td>IV</td>
+                  <td>IV</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>         
+        </div>
+      </div>
+      <div class="btn-group dropup">
+          <button type="button" class="btn btn-link btn dropdown-toggle" data-toggle="dropdown">Press Here</button>
+          <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Nasopharyngeal Ca</a>
+            <a class="dropdown-item" href="#">Oropharyngeal Ca</a>
+            <a class="dropdown-item" href="#">Laryngeal Ca</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../tnm/tnmNSCLC.html">NSCLC</a>
+            <a class="dropdown-item" href="#">SCLC</a>
+            <a class="dropdown-item" href="#">Mesothelioma</a>
+          </div>
+      
+      
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

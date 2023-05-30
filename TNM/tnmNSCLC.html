@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel='stylesheet' href = "tnm.css">
+    <title>TNM8 NSCLC</title>
+  </head>
+  <body>
+    <br>
+    <div class = 'container' , id = 'title'>
+        <h3>NSCLC 8th Edition</h3>
+    </div>
+    <div class= 'container'>
+        <p style = "text-align: center";>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#tumour">Tumour</button>
+            <button class='btn btn-warning' type='button' data-toggle='collapse' data-target="#nodes">Nodes</button>
+            <button class="btn btn-danger" type='button' data-toggle="collapse" data-target="#metastases">Metastases</button>
+            <button class='btn btn-success' type='button' data-toggle="collapse" data-target="#stage">Stage</button>
+        </p>
+        <div class="collapse" id="tumour">
+            <div class = 'container'> 
+            <h4>Tumour</h4>
+            <table class="table table-bordered table-info table-small">
+              <thead>
+                <tr>
+                  <th scope="col">T</th>
+                  <th scope="col">Feature</th>
+                  <th scope="col">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Pre-T1</th>
+                  <td>Tx: Tumour in sputum / washings etc but no sign on bronch or imaging.<br>T0: No evidence of tumour.<br>Tis: Carcinoma in situ.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">T1</th>
+                  <td>&#8804; 3cm surrounded by lung/visceral pleura, not involving main bronchus.</td>
+                  <td>T1a(mi) : Minimally invasive carcinoma.<br>
+                      T1a     : &#8804; 1cm.<br>
+                      T1b     : &#8827; 1 to &#8804; 2cm.<br>
+                      T1c     : &#8827; 2 to &#8804; 3cm.<br>
+                    </td>
+                </tr>
+                <tr>
+                  <th scope="row">T2</th>
+                  <td>&#8827; 3 to &#8804; 5cm <b>or</b> involvement of main bronchus without carina (distance not important) or invasion of visceral pleura or atelectasis or post-obstructive pneumonitis extending to the hilum.</td>
+                  <td>T2a     : &#8827; 3 to &#8804; 4cm.<br>
+                      T2b     : &#8827; 4 to &#8804; 5cm.</td>
+                </tr>
+                <tr>
+                  <th scope="row">T3</th>
+                  <td>&#8827; 5 to &#8804; 7cm. or involvement of chest wall, pericardium, phrenic nerve or satellite nodules in the <b>same</b> lobe.</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope='row'>T4</th>
+                  <td>&#8827; 7cm in greatest dimension <b>or</b> invasion of mediastinum, diaphragm, heart, great vessels, recurrent laryngeal nerve, carina, trachea, oesophagus, spine <b>or</b> separate tumour in different lobe of ipsilateral lung./td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            </div>         
+          </div>
+        <div class="collapse" id="nodes">
+            <div class = 'container'>
+            <h4>Nodes</h4>
+            <table class="table table-bordered table-warning table-small">
+              <thead>
+                <tr>
+                  <th scope="col">N</th>
+                  <th scope="col">Feature</th>
+                  <th scope="col">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">N1</th>
+                  <td>Ipsilateral peribronchial or hilar or intrapulmonary nodes</td>
+                  <td>Stations:<br>
+                    RIGHT: 10R - 14R<br>
+                    LEFT: 10L -10L</td>
+                </tr>
+                <tr>
+                  <th scope="row">N2</th>
+                  <td>Ipsilateral mediastinal or subcarinal nodes</td>
+                  <td>Stations:<br>
+                    RIGHT: 2R, 3aR, 3p, 4R, 7, 8R, 9R<br>
+                    LEFT: 2L, 3aL, 4L, 5, 6, 7, 8L, 9L</td>
+                </tr>
+                <tr>
+                  <th scope="row">N3</th>
+                  <td>Contralateral mediastinal or hilar ; ipsilateral/contralateral scalene or supraclavicular</td>
+                  <td>Stations:<br>
+                    RIGHT: 1, 2L, 3aL, 4L, 5, 6, 8L, 9L, 10-14L<br>
+                    LEFT: 1, 2R, 3aR, 3pR, 4R, 8R, 9R, 10-14R</td>
+                </tr>
+               </tbody>
+            </table>
+            </div>
+        </div>
+        <div class = 'collapse' id='metastases'>
+            <div class = 'container'>
+            <h4>Metastases</h4>
+            <table class="table table-bordered table-danger table-small">
+              <thead>
+                <tr>
+                  <th scope="col">M</th>
+                  <th scope="col">Features</th>
+                  <th scope="col">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">M1a</th>
+                  <td>Malignant pleural or pericardial effusion/nodules, contralateral or bilateral pulmonary nodules.</td>
+                  <td>'Regional Mets'</td>
+                </tr>
+                <tr>
+                  <th scope="row">M1b</th>
+                  <td>Solitary extrathoracic mets.</td>
+                  <td>'Solitary Met'</td>
+                </tr>
+                <tr>
+                  <th scope="row">M1c</th>
+                  <td>Multiple extrathoracic mets.</td>
+                  <td>'Multiple Mets'</td>
+                </tr>
+             </tbody>
+            </table>
+          </div>
+        </div>
+         <div class="collapse" id="stage">
+            <div class = 'container'> 
+            <h4>Stage</h4>
+            <table class="table table-bordered table-success table-small">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">N0</th>
+                  <th scope="col">N1</th>
+                  <th scope="col">N2</th>
+                  <th scope="col">N3</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope='row'>T1</th>
+                  <td>IA</td>
+                  <td>IIB</td>
+                  <td>IIIA</td>
+                  <td>IIIB</td>
+                </tr>
+                <tr>
+                  <th scope="row">T2a</th>
+                  <td>IB</td>
+                  <td>IIB</td>
+                  <td>IIIA</td>
+                  <td>IIIB</td>
+                </tr>
+                <tr>
+                  <th scope="row">T2b</th>
+                  <td>IIA</td>
+                  <td>IIB</td>
+                  <td>IIIA</td>
+                  <td>IIIB</td>
+                </tr>
+                <tr>
+                  <th scope="row">T3</th>
+                  <td>IIB</td>
+                  <td>IIIA</td>
+                  <td>IIIB</td>
+                  <td>IIIC</td>
+                </tr>
+                <tr>
+                  <th scope="row">T4</th>
+                  <td>IIIA</td>
+                  <td>IIIA</td>
+                  <td>IIIB</td>
+                  <td>IIIC</td>
+                </tr>
+                <tr>
+                  <th scope="row">M1a</th>
+                  <td>IVA</td>
+                  <td>IVA</td>
+                  <td>IVA</td>
+                  <td>IVA</td>
+                </tr>
+                <tr>
+                  <th scope="row">M1b</th>
+                  <td>IVA</td>
+                  <td>IVA</td>
+                  <td>IVA</td>
+                  <td>IVA</td>
+                </tr>
+                <tr>
+                  <th scope="row">M1c</th>
+                  <td>IVB</td>
+                  <td>IVB</td>
+                  <td>IVB</td>
+                  <td>IVB</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>         
+        </div>
+      </div>
+      <div class="btn-group dropup">
+          <button type="button" class="btn btn-link btn dropdown-toggle" data-toggle="dropdown">Press Here</button>
+          <div class="dropdown-menu">
+           <a class="dropdown-item" href="#">Nasopharyngeal Ca</a>
+            <a class="dropdown-item" href="#">Oropharyngeal Ca</a>
+            <a class="dropdown-item" href="#">Laryngeal Ca</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">NSCLC</a>
+            <a class="dropdown-item" href="#">SCLC</a>
+            <a class="dropdown-item" href="#">Mesothelioma</a>
+          </div>
+      
+      
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

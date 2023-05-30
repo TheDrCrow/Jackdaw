@@ -1,0 +1,262 @@
+/*THIS is the css for NEW CROW  2022*/
+
+h5,
+h4 {
+font-weight: bold;
+}
+
+h6 {
+font-family: Cascadia Mono PL, Cascadia Code PL, 'CaskaydiaCove Nerd Font', 'Courier New', Courier, monospace;
+font-size: 10pt;
+font-weight: 550;
+line-height: 1.3;
+}
+
+p {
+margin-bottom: 8px;
+color: #e5e9f0;
+}
+
+body {
+color: #d8dee9;
+background: #434c5e;
+}
+
+hr {
+background: #eceff4;
+max-width: 864px;
+border-width: 3px;
+}
+
+hr.subsection { 
+border-width: 1px;
+background: #8fbcbb;
+}
+
+span {
+  padding-right: 16px;
+}
+  
+.selected {
+color: #a3b8ac ;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  color: #eceff4; 
+}
+  
+.nav-pills .nav-link.active {
+background-color: #3b4252;	
+}
+
+.nav-link {
+  font-weight:550;
+}
+.navbar-dark {
+color: #d8dee9;
+background: #3b4252;
+font-weight: 650;
+max-width: 864px;
+}
+
+.btn-sm {
+  font-weight:700;
+  width: 9.8em;
+  margin-bottom: 0.25em;
+}
+#right {
+  max-width: 870px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.overflow-auto {
+  padding-right: 0px;
+}
+.gap {
+height: 950px;
+}
+
+.dashed {
+  border-top: 1px dashed #4c566a;
+}
+
+::-webkit-scrollbar {
+width: 0px;
+}
+::-webkit-scrollbar-button {
+color: #5e81ac;	
+}
+
+.navbar-nav:hover {
+  color: #4c566a;
+}
+
+.nav-link:hover {
+  color: #4c566a;
+}
+
+.light {
+  font-weight: 400;
+}
+
+/* Black */
+.nord0 {
+color: #2e3440;
+}
+/*Grey-Dark */
+.nord1 {
+color:#3b4252;
+}
+/* Grey-Medium */
+.nord2 {
+color: #434c5e;
+}
+/* Grey-Lightish */
+.nord3 {
+color: #4c566a;
+}
+/* White-darkish */
+.nord4 {
+color: #d8dee9;
+}
+/* White-medium */
+.nord5 {
+color: #e5e9f0;
+}
+/* White */
+.nord6 {
+color: #eceff4;
+}
+/* Blue-green */
+.nord7 {
+color: #8fbcbb;
+}
+/* Blue-light */
+.nord8 {
+color: #88c0d0;
+}
+/* Blue-Medium */
+.nord9 {
+color: #81a1c1;
+}
+/* Blue-Dark */
+.nord10 {
+color: #5e81ac;
+}
+/* Red */
+.nord11 {
+color: #bf616a;
+}
+/* Orange */
+.nord12 {
+color: #d08770;
+}
+/* Yellow */
+.nord13 {
+color: #ebcb8b;
+}
+/* Green */
+.nord14 {
+color: #a3be8c;
+}
+/* Purple */
+.nord15 {
+color: #b48ead;
+}
+
+/* BUTTON COLOURS */
+.whiteongreen {
+  color: #e5e9f0;
+  background-color:#a3be8c;
+}
+.greyongreen {
+  color: #434c43;
+  background-color:#a3be8c;
+}
+.greyonred {
+  color: #434c43;
+  background-color: #bf616a;
+}
+.greyonyellow {
+  color: #434c43;
+  background-color: #ebcb8b;
+}
+.greyonorange {
+  color: #434c43;
+  background-color: #d08770;
+}
+.greyonpurple {
+  color: #434c43;
+  background-color: #b48ead;
+}
+.greyongreenblue {
+  color: #434c43;
+  background-color:#8fbcbb;
+}
+.greenblueingrey{
+  background-color: #434c5e;
+  color: #8fbcbb;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #8fbcbb;
+}
+.greyonlightblue {
+  color: #434c43;
+  background-color: #88c0d0;
+}
+.lightblueingrey{
+  background-color: #434c5e;
+  color: #88c0d0;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #88c0d0;
+}
+.greyonmediumblue {
+  color: #434c43;
+  background-color: #81a1c1;
+}
+.mediumblueingrey{
+  background-color: #434c5e;
+  color: #81a1c1;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #81a1c1;
+}
+.greyondarkblue {
+  color: #434c43;
+  background-color: #5e81ac;
+}
+.darkblueingrey{
+  background-color: #434c5e;
+  color: #5e81ac;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #5e81ac;
+}
+.whiteonlightgrey {
+  color: #d8dee9;
+  background-color: #4c566a;
+}
+.greyonwhite {
+  color: #4c566a;
+  background-color: #d8dee9;
+}
+.whiteingrey{
+  background-color: #434c5e;
+  color: #d8dee9;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #d8dee9;
+}
+
+.green {
+color: #22cc22;
+}
+
+.gap {
+height: 950px;
+}
+::-webkit-scrollbar-button {
+color: #5e81ac;	
+}

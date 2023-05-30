@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Fontawesome CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<!-- favicon -->
+  <link rel="icon" href="favicon_grey.png" type="image/png" sizes="16x16">
+<!-- personal CSS-->
+  <link rel="stylesheet" href="jackdaw.css">
+
+  <title>onco</title>
+</head>
+
+<body>
+  <div class="container-fluid d-flex flex-column flex-grow-1 vh-100 overflow-auto" id = "right">
+<!--Create the NAVBAR-->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="JackdawIndex.html"><span class="nord9"><i class="fas fa-crow"></i>Jackdaw</span></a>
+      <a class="navbar-nav" href="ed.html"><span><i class="fas fa-ambulance"></i>  ed  </span>  </a>
+      <a class="navbar-nav" href="onco.html"><span class="nord9"><i class="fas fa-smoking"></i>  onco  </span></a>
+      <a class="navbar-nav" href="head.html"><span><i class="fas fa-skull"></i> head  </span></a>
+      <a class="navbar-nav" href="chest.html"><span><i class="fas fa-x-ray"></i>  chest  </span></a>
+      <a class="navbar-nav" href="abdo.html"><span><i class="fas fa-poo"></i>  abdo  </span></a>
+      <a class="navbar-nav" href="msk.html"><span><i class="fas fa-pound-sign"></i>  msk  </span></a>
+      <a class="navbar-nav" href="paed.html"><span><i class="fas fa-child"></i>  paed  </span></a>
+      <a class="navbar-nav" href="Ultracrow.html"><span><i class="fas fa-magic"></i>  ultra  </span></a>
+      <button type="button" class="btn nord15" id="copyAll" type="submit" value="copyAll"><span><i class="far fa-copy"></i>  Copy All</span></button>
+    </nav>
+    <br>
+<!--Create the body-->
+    <div class="row flex-grow-1 overflow-hidden">
+<!--Create the LEFT column-->
+      <div class="col-3 mh-100 overflow-auto py-2" id="left">
+<!--Create the LEFT column Contents.-->
+        <div class="nav flex-column nav-pills" id="" role="tablist" aria-orientation="vertical">
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#topic1" role="tab">Diagnosis</a>
+          <a class="nav-link nord8" id="" data-toggle="pill" href="#topic2" role="tab">Follow Up</a>
+          <a class="nav-link nord10" id="" data-toggle="pill" href="#haem" role="tab">Haematology</a>
+          <a class="nav-link nord9" id="" data-toggle="pill" href="#melanoma" role="tab">Melanoma</a>
+          <a class="nav-link nord15" id="" data-toggle="pill" href="#breast" role="tab">Breast</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#lung" role="tab">Lung</a>
+          <a class="nav-link nord8" id="" data-toggle="pill" href="#h+n" role="tab">Head & Neck</a>
+          <a class="nav-link nord10" id="" data-toggle="pill" href="#crc" role="tab">Rectum & Colon</a>
+          <a class="nav-link nord9" id="" data-toggle="pill" href="#prostate1" role="tab">Prostate</a>
+          <a class="nav-link nord15" id="" data-toggle="pill" href="#prostate" role="tab">Calculator</a>
+
+<!--
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#topic7" role="tab">Topic7</a>
+          <a class="nav-link nord10" id="" data-toggle="pill" href="#topic8" role="tab">Topic8</a> -->
+          <br>
+        </div>
+      </div>
+<div class="col-9 mh-100 overflow-auto py-2" id="right">
+<div class="tab-content">
+<!--
+DIAGNOSIS Tab
+-->
+<div class="tab-pane fade show active" id="topic1" role="tabpanel">
+<h5 class="nord13">Diagnosis</h5>
+<a class="btn btn-sm greyonorange" target="_blank" href="../Jackdaw/TNM/tnmIndex.html" role="button">TNM</a>
+<a class="btn btn-sm greyonmediumblue" target="_blank" href="https://www.nice.org.uk/guidance/ng122 role="button">NICE: Lung</a>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METASTATIC DISEASE</h6>
+<hr>
+<h6 class="nord13">IMPRESSION</h6>
+<hr>
+</div>
+<!--
+FOLLOW UP Tab
+-->
+<div class="tab-pane fade" id="topic2" role="tabpanel">
+<h5 class="nord13">Follow Up</h5>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METASTATIC DISEASE</h6>
+<hr>
+<h6 class="nord13">IMPRESSION</h6>
+<hr>
+</div>
+<!--
+HAEMATOLOGY Tab
+-->
+<div class="tab-pane fade" id="haem" role="tabpanel">
+<h5 class="nord13">Haematology</h5>
+<hr>
+<h5 class="nord12">Myeloma</h5>
+<a class="btn btn-sm greyonlightblue" target="_blank" href="../Papers/my-rads.pdf" role="button">MY-RADS</a>
+<a class="btn btn-sm greyondarkblue" target="_blank" href="../Papers/MY-RADS_suppl.pdf" role="button">MY-RADS Supp</a>
+<a class="btn btn-sm greyonmediumblue" target="_blank" href="https://www.nice.org.uk/guidance/ng35" role="button">NICE Myeloma</a>
+<hr class = "subsection">
+<h6 class="nord13">BONE</h6>
+<hr class = "subsection">
+<h6 class="nord13">FOCAL</h6>
+<hr class = "subsection">
+<h6 class="nord13">SOFT TISSUE</h6>
+<hr class = "subsection">
+<h6 class="nord13">CHANGE & IMPRESSION</h6>
+<hr>
+<h5 class="nord12"><b>LYMPHOMA</b></h5>
+<hr class = "subsection">
+<h6 class="nord13">PRIMARY</h6>
+<hr class = "subsection">
+<h6 class="nord13">NODES</h6>
+<hr class = "subsection">
+<h6 class="nord13">METASTATIC DISEASE</h6>
+<hr class = "subsection">
+<h6 class="nord13">IMPRESSION</h6>
+<hr>
+</div>
+<!--
+MELANOMA Tab
+-->
+<div class="tab-pane fade" id="melanoma" role="tabpanel">
+<h5 class="nord13">Melanoma</h5>
+<a class="btn btn-sm greyonmediumblue" target="_blank" href="https://nice.org.uk/guidance/ng35" role="button">NICE</a>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY RESPONSE</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METASTATIC DISEASE</h6>
+<hr>
+<h6 class="nord13">IMPRESSION</h6>
+<hr>
+</div>
+<!--
+BREAST Tab
+-->
+<div class="tab-pane fade" id="breast" role="tabpanel">
+<h5 class="nord13">Breast</h5>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY RESPONSE</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METASTATIC DISEASE</h6>
+<hr>
+<h6 class="nord13">IMPRESSION</h6>
+<hr>
+</div>
+<!--
+LUNG Tab
+-->
+<div class="tab-pane fade" id="lung" role="tabpanel">
+<h5 class="nord13">Lung</h5>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METS</h6>
+<hr>
+<h6 class="nord13">RESPONSE & IMPRESSION</h6>
+<hr>
+</div>
+<!--
+HEAD & NECK Tab
+-->
+<div class="tab-pane fade" id="h+n" role="tabpanel">
+<h5 class="nord13">Head & Neck</h5>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METS</h6>
+<hr>
+<h6 class="nord13">RESPONSE & IMPRESSION</h6>
+<hr>
+</div>
+<!--
+COLORECTAL Tab
+-->
+<div class="tab-pane fade" id="crc" role="tabpanel">
+<h5 class="nord13">Colon & Rectum</h5>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METS</h6>
+<hr>
+<h6 class="nord13">RESPONSE & IMPRESSION</h6>
+<hr>
+</div>
+<!--
+PROSTATE CALCULATOR Tab
+-->
+<div class="tab-pane fade" id="prostate1" role="tabpanel">
+<h5 class="nord13">Prostate</h5>
+<a class="btn btn-sm greyonmediumblue" target="_blank" href="../Papers/PIRADS V2.pdf" role="button">PI-RADSv2</a>
+<a class="btn btn-sm greyonlightblue" target="_blank" href="../Papers/PIRADS V2-1.pdf" role="button">PI-RADSv2.1</a>
+<a class="btn btn-sm greyongreenblue" target="_blank" href="../Papers/ProstateCaMissedLesions.pdf" role="button">Missed</a>
+<a class="btn btn-sm greyonwhite" target="_blank" href="../Papers/ProstateMRPadhani2020.pdf" role="button">Padhani</a>
+<a class="btn btn-sm greyonpurple" target="_blank" href="../Papers/PI-RADSAideMemorie.docx" role="button">Aide-Memorie</a>
+<hr>
+<h6 class="nord13">TECHNICAL</h6>
+<hr>
+<h6 class="nord13">PRIMARY</h6>
+<hr>
+<h6 class="nord13">NODES</h6>
+<hr>
+<h6 class="nord13">METS</h6>
+<hr>
+<h6 class="nord13">RESPONSE & IMPRESSION</h6>
+<hr>
+</div>
+          <div class="tab-pane fade" id="prostate" role="tabpanel">
+            <h5 class="nord13">Prostate Calculator</h5>
+            <div class= "contents">
+              <h5>The Prostate is (cm):</h5>
+              <form>
+                <div class ="form-group">
+                <!----
+                  <label for="prWi" class = 'col-form-label '>Width :</label>
+                --->
+                  <input type = 'text' class = 'form-control form-control-sm' id = 'prWi' placeholder = 'Width'> 
+                  <input type = 'text' class = 'form-control form-control-sm' id = 'prDe' placeholder = 'Depth'> 
+                  <input type = 'text' class = 'form-control form-control-sm' id = 'prHe' placeholder = 'Height'>               
+                </div>
+                <div class = 'greentext'>
+                  <h6>BPH: </h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="bph" value = "No significant BPH change.">Normal
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="bph" value="Only mild BPH change.">Mild
+                  </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="bph" value="Moderate BPH changes.">Moderate
+                  </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="bph" value="Severe BPH changes.">
+                  Severe</label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="bph" value="Very severe BPH changes.">Very Severe
+                  </label>
+                  </div>            
+                <br>
+                <!--- BLADDER VOLUME --->
+                    <div class = 'greentext'>
+                    <h6>The bladder is (volume)</h6>
+                      <div class="form-check-inline form-control-sm">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input"
+                          name="blaVol" value="Normal volume">Normal volume
+                        </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="blaVol" value="Near-empty">Empty
+                      </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="blaVol"
+                        value="Moderately filled">Moderate
+                      </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="blaVol"
+                                    value="Over-filled">Over-filled
+                      </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                              <input type="radio" class="form-check-input"
+                              name="blaVol" value="Catheterised">Catheterised</label>
+                      </div>            
+                    </div>
+                    <br>
+                    <!--- BLADDER WALL STATE --->								
+                    <div class = 'greentext'>
+                    <h6>with (wall thickness)</h6>
+                      <div class="form-check-inline form-control-sm">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input"
+                          name="blaWal" value="Normal appearing wall.">Normal
+                        </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="blaWal"
+                        value="Mildy thickened and trabeculated">Mild
+                      </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="blaWal"
+                        value="Moderately thickened">Moderate
+                      </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="blaWal"
+                                    value="Markedly thickened">Severe
+                      </label>
+                      </div>
+                      <div class="form-check-inline form-control-sm">
+                      <label class="form-check-label">
+                              <input type="radio" class="form-check-input"
+                              name="blaWal" value="Very severely thickened">Very Severely</label>
+                      </div>            
+                      <br>
+                      <div class="form-check-inline form-control-sm">
+                        <span>
+                          <label for='blaDiv'>with Diverticula? </label>
+                          <select name='blaDiv' id = 'blaDiv' class='form-group-sm greentext'>
+                            <option value= 'no diverticula.' selected> No </option>
+                            <option value= 'mild diverticula formation.'> Mild </option>
+                            <option value= 'severe diverticula formation.'> Severe </option>
+                          </select>
+                        </span>
+                      </div>
+                    </div>
+                  <br>
+                <button type="submit" id= 'prMe' class="btn lightblueingrey btn-sm btn-block">Submit</button>
+              </form>
+              <br>
+              </div>
+              <!-- Now for the lesion builder   -->
+
+              <hr class = "section">
+              <form>
+                <h5>The lesion is ...</h5>
+                <div class ="form-group form-group-inline form-group-sm">
+                  <span>
+                  <label for='prleNu1'>Number : </label>
+                  <select name='prleNu1' id = 'prleNu1'class='form-group-sm'>
+                    <option value= '1' selected> 1 </option>
+                    <option value= '2'> 2 </option>
+                    <option value= '3'> 3 </option>
+                    <option value= '4'> 4 </option>
+                  </select>
+                  </span>
+                </div>
+                <div class="form-group-sm">
+                  <input type = "text" class="form-control form-control-sm" id = "prlele" placeholder = 'Image number on axial T2s'>
+                </div>
+                </div>
+                <div class ="form-group-sm">
+                  <input type = 'text' class = 'form-control form-control-sm' id = 'prleWi' placeholder = 'Width'> 
+                  <input type = 'text' class = 'form-control form-control-sm' id = 'prleDe' placeholder = 'Depth'> 
+                  <input type = 'text' class = 'form-control form-control-sm' id = 'prleHe' placeholder = 'Height'>               
+                </div>
+
+                <br>
+                <div>
+                  <h6>Description: </h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleDes1" value = "Indistinct">indistinct
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleDes1" value="Possible">possible
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleDes1" value="Invasive">invasive
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleDes1" value="Well-defined">well-defined
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleDes1" value="Markedly abnormal">markedly abnormal
+                    </label>
+                  </div>            
+                </div>
+                <br>
+                <div>
+                  <h6>Type: </h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlety" value="mass">mass
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlety" value="region">region
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlety" value="focus">focus
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlety" value="nodule">nodule
+                    </label>
+                  </div>                       
+                </div>
+                <br>
+                <div> 
+                  <h6>Signal: </h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleSi" value="low T2/ADC">low T2/ADC
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleSi" value="very low T2/ADC">very low T2/ADC
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleSi" value="borderline T2/ADC">borderline T2/ADC
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleSi" value="heterogeneous T2/ADC">heterogeneous T2/ADC
+                    </label>
+                  </div>                       
+                </div>
+                <br>
+                <div> 
+                  <h6>b1400 signal: </h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlebS" value="normal">normal
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlebS" value="faint">faint
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlebS" value="moderate">moderate
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlebS" value="high">high
+                    </label>
+                    </div>                       
+                  </div>
+                <div>
+                  <hr>
+                  <div>
+                  <h6>Enhancement:</h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleen" value="normal">normal
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleen" value="borderline">borderline
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prleen" value="abnormal">abnormal
+                    </label>
+                  </div>
+                  </div>
+                  <hr>
+                  <div>
+                  <h6>Margin:</h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlema" value="No involvement of prostatic margin.">Clear
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlema" value="Abuts margin but NO concerning features for ECE.">Abuts but ok
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlema" value="Abuts margin but borderline signs of extracapsular extension.">Borderline ECE
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlema" value="There appears to be extracapsular extension.">Appears to be ECE
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlema" value="There appears to be extracapsular extension into the SVs.">ECE into SVs.
+                    </label>
+                  </div>
+                  </div>
+                  <br>
+                  <h6>Side:</h6>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlepo1" value="RIGHT">RIGHT
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlepo1" value="MIDLINE">MIDLINE
+                    </label>
+                  </div>
+                  <div class="form-check-inline form-control-sm">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="prlepo1" value="LEFT">LEFT
+                    </label>
+                  </div>
+                  </div>
+                  <div class ="form-group form-group-inline form-group-sm">
+                    <span>
+                    <label for='prlepo2'>Level: </label>
+                    <select name='prlepo2' id = 'prlepo2'class='form-group-sm'>
+                      <option value= 'apical' selected> apical </option>
+                      <option value= 'apical/mid-gland'> apical/mid-gland </option>
+                      <option value= 'mid-gland'> mid-gland </option>
+                      <option value= 'basal/mid-gland'> basal/mid-gland </option>
+                      <option value= 'base'> base<option>
+                    </select>
+                    </span>
+                  </div>
+                  <div class ="form-group form-group-inline form-group-sm">
+                  <span>
+                    <label for='prlepo3'>Position : </label>
+                    <select name='prlepo3' id = 'prlepo3'class='form-group-sm'>
+                      <option value= 'PZpm' selected>PZpm</option>
+                      <option value= 'PZpl'>PZpl</option>
+                      <option value= 'PZa'>PZa</option>
+                      <option value= 'TZa' >TZa</option>
+                      <option value="TZp">TZp</option>
+                      <option value="AFS">AFS</option>
+                      <option value="CZ">CZ</option>
+                    </select>
+                  </span>
+                  </div>
+                  <div class ="form-group form-group-inline form-group-sm">
+                  <span>
+                    <label for='prlepo3'>LIKERT: </label>
+                    <select name='prleLI' id = 'prleLI'class='form-group-sm'>
+                      <option value= '1' selected>1</option>
+                      <option value= '1/2'>1/2</option>
+                      <option value= '2'>2</option>
+                      <option value= '2/3'>2/3</option>
+                      <option value= '3'>3</option>
+                      <option value="3/4">3/4</option>
+                      <option value="4">4</option>
+                      <option value="4/5">4/5</option>
+                      <option value='5'>5</option>
+                    </select>
+                  </span>
+                  </div>
+                  <hr>
+                <button type="submit" id= 'prle' class="btn btn-sm greyonmediumblue btn-block">Submit</button>  
+                <!-- </div> -->
+              </form>
+          </div>
+        </div>
+      </div>
+    </div> <!-- class ="row"-->
+  </div> <!--Container for whole body-->
+
+<!-- JavaScript bits-->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+
+  <!---Put bespoke js here --->
+  <script src="jackdaw.js"></script>
+</body>
+
+</html>

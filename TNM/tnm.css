@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+}
+
+.container  {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px, 0px, 20px, 0px;
+    background-color: lightblue;
+    
+}
+
+#title {
+    color: dimgrey;
+    text-align: center;
+}
+
+#tumour {
+    color:darkslateblue ;
+}
+
+#nodes {
+    color: darkmagenta ;
+}
+
+#metastases {
+    color: crimson ; 
+}
+
+#stage {
+    color: darkgreen;
+}
