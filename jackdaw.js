@@ -1,12 +1,12 @@
 
 $('document').ready(function () {
 
-$("p").hide();
-$("h5").click(function () {
-	$(this).nextUntil("hr").toggle();
-});
+//$("p").hide();
+//$("h5").click(function () {
+//	$(this).nextUntil("hr").toggle();
+// });
 
-$("h6").click(function () {
+$("h6,p").click(function () {
 	$(this).toggleClass("selected");
 	var words = $(this).text();
 	copyStringToClipboard(words);
@@ -99,5 +99,5 @@ $('#prle').click(function () {
                 
                   
                 
-              
-          
+  
+

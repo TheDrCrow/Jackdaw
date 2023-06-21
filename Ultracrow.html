@@ -627,23 +627,30 @@ GIT
 <h6>
 APPENDIX<br>
 Primary signs:<br>
-- Normal | Abnormal appendix visualised | Appendix not visualised in the RLQ.<br>
-- Hyperaemia: xxx<br>
-- Width: xxx mm MAX<br>
-- Compressible: xxx<br>
-- Appendicolith: xxx<br>
-- Perforation: xxx<br>
+- Normal appendix visualised in xxx.<br>
+- Abnormal appendix visualised in xxx.<br>
+- Appendix not identified in the RIF.<br>
+ --> Width: xxxmm MAX<br>
+ --> Wall: xxx.<br>
+ --> Perforation: xxx<br>
+ --> Hyperaemia: xxx<br>
+ --> Compressibility: xxx<br>
+ --> Appendicolith: xxx<br>
+<br>
 Secondary signs<br>
 - Abscess: xxx<br>
 - RLQ fat: Normal | Increased echogenicity<br>
 - Other bowel loops: Normal | Dilatated & non-compressible<br>
-Other signs<br>
 - Free fluid: xxx<br>
+<br>
 - Mesenteric nodes: <5mm / 5mm+, non-clustered / >=3 clustered <br>
 </h6>
 <h6>OTHER</h6>
-<h6>- Unremarkable liver, biliary tree, pancreas, spleen, kidneys, aorta. No generalised lymphadenopathy.</h6>
-<h6>- Unremarkable uterus and adnexae.</h6>
+<h6>- Unremarkable liver, biliary tree, pancreas, spleen, kidneys, aorta. No generalised lymphadenopathy. No twist in the proximal small bowel mesentery.<br>
+ --> RIGHT Kidney: xxcm<br>
+ --> LEFT Kidney: xxx cm<br>
+ --> Spleen: xxx cm<br>
+- Unremarkable uterus and adnexae.</h6>
 <hr>
 <h6>
 IMPRESSION:</h6>
@@ -703,43 +710,8 @@ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07j
 crossorigin="anonymous"></script>
 
 <!---Put bespoke js here --->
-<script>
-$('document').ready(function () {
+<script src="jackdaw.js"></script>
 
-$("p").hide();
-$("h5").click(function () {
-$(this).nextUntil("hr").toggle();
-});
-
-$("h6").click(function () {
-$(this).toggleClass("selected");
-var words = $(this).text();
-copyStringToClipboard(words);
-});
-
-//Copy All function 
-$("#copyAll").click(function () {
-var stuff, tt ;
-$(".selected").each(function() {
-tt = $(this).text(); 
-stuff = stuff + tt + "\n";
-});
-copyStringToClipboard(stuff);
-});
-
-function copyStringToClipboard(str) {
-var el = document.createElement('textarea');
-el.value = str;
-el.setAttribute('readonly', '');
-el.style = { position: 'absolute', left: '-9999px' };
-document.body.appendChild(el);
-el.select();
-document.execCommand('copy');
-document.body.removeChild(el);
-};
-
-});
-</script>
 </body>
 
 </html>
