@@ -92,20 +92,21 @@ GENERAL CHEST
 SIADH & MISCELLANEOUS
 -->
 <div class="tab-pane fade" id="siadh" role="tabpanel">
-<h5 class="nord13">SIADH & Miscellany </h5>
+<h4 class="nord13">SIADH & Miscellany </h4>
 <hr>
-<h6 class="nord13"><b>SIADH</b></h6>
-<h6>SIADH<br>
+<h5 class="nord13"><b>SIADH</b></h5>
+<p>SIADH<br>
 - No lung mass or other acute chest lesion.<br>
 - No mediastinal lesion. <br>
 - No gross duodenal or pancreatic mass.<br>
 - No ureteric dilatation or other lesion.<br> 
 - No lytic bone lesion in the axial skeleton seen.<br>
-- No splenomegaly or lymphadenopathy.</h6>
-<br>
-<h6>- No lesion seen in the nasopharynx.</h6>
-<h6>- No gross sign of prostate malignancy.</h6>
-<h6>- No gross sign of endometrial tumour.</h6>
+- No splenomegaly or lymphadenopathy.</p>
+<hr class="subsection">
+<h6>Individual Bits</h6>
+<p>- No lesion seen in the nasopharynx.</p>
+<p>- No gross sign of prostate malignancy.</p>
+<p>- No gross sign of endometrial tumour.</p>
 <hr class ="">
 </div>
 <!--
@@ -145,28 +146,28 @@ Stylesheet
 <h1>This is h1</h1>
 <h2>This is h2</h2>
 <h3>This is h3</h3>
-<h4>This is h4</h4>
-<h5>This is h5</h5>
-<h6>This is h6. Main body of text used</h6>
-<text>This is text</text>
-<p>This is a p</p>
-<hr class="subsection">
-<h6 class="nord0">nord0</h6>
-<h6 class="nord1">nord1</h6>
-<h6 class="nord2">nord2</h6>
-<h6 class="nord3">nord3</h6>
-<h6 class="nord4">nord4</h6>
-<h6 class="nord5">nord5</h6>
-<h6 class="nord6">nord6</h6>
-<h6 class="nord7">nord7</h6>
-<h6 class="nord8">nord8</h6>
-<h6 class="nord9">nord9</h6>
-<h6 class="nord10">nord10</h6>
-<h6 class="nord11">nord11</h6>
-<h6 class="nord12">nord12</h6>
-<h6 class="nord13">nord13</h6>
-<h6 class="nord14">nord14</h6>
-<h6 class="nord15">nord15</h6>
+<h4>This is h4    = Page Title</h4>
+<h5>This is h5    = Section Title.  Press here to Toggle.</h5>
+<h6 class="show">This is h6    = Subsection Title</h6>
+<p class="show">This is a p    = Main body of text.</p>
+<text class="show">This is text</text>
+<hr class="subsection show">
+<h6 class="nord0 show">nord0</h6>
+<h6 class="nord1 show">nord1</h6>
+<h6 class="nord2 show">nord2</h6>
+<h6 class="nord3 show">nord3</h6>
+<h6 class="nord4 show">nord4</h6>
+<h6 class="nord5 show">nord5</h6>
+<h6 class="nord6 show">nord6</h6>
+<h6 class="nord7 show">nord7</h6>
+<h6 class="nord8 show">nord8</h6>
+<h6 class="nord9 show">nord9</h6>
+<h6 class="nord10 show">nord10</h6>
+<h6 class="nord11 show">nord11</h6>
+<h6 class="nord12 show">nord12</h6>
+<h6 class="nord13 show">nord13</h6>
+<h6 class="nord14 show">nord14</h6>
+<h6 class="nord15 show">nord15</h6>
 <hr>
 <h6 class="nord13">Buttons</h6>
 <a class="btn btn-sm greyongreen" target="_blank" href="#" role="button">greyongreen</a>
@@ -193,9 +194,9 @@ Stylesheet
 <hr class = "">
 <div class= "contents">
   <h5>The Form</h5>
-    <form>
+    <form class = "show">
       <div class ="form-group">
-        <h5 class = "light">Variable Inputs</h5>
+        <h5 class = "light show">Variable Inputs</h5>
           <input type = 'text' class = 'form-control form-control-sm' id = 'depth' placeholder = 'Depth'> 
           <input type = 'text' class = 'form-control form-control-sm' id = 'height' placeholder = 'Height'>               
           <input type = 'text' class = 'form-control form-control-sm' id = 'width' placeholder = 'Width'> 
@@ -223,7 +224,7 @@ Stylesheet
         <span>
           <label for='attribute2'>A Drop-Down Attribute: </label>
           <select name='attribute2' id = '' class='form-group-sm greentext'>
-            <option value= 'No Path' selected> No </option>
+            <option value= 'No Path'> No </option>
             <option value= 'Mild pathology.'> Mild </option>
             <option value= 'Severe pathology.'> Severe </option>
           </select>

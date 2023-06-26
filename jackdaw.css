@@ -1,20 +1,29 @@
 /*THIS is the css for NEW CROW  2022*/
 
-h5,
 h4 {
-font-weight: bold;
+  font-weight: bold;
+  color: #ebcb8b;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 14pt;
+  color: #ebcb8b;
 }
 
 h6 {
-font-family: Cascadia Mono PL, Cascadia Code PL, 'CaskaydiaCove Nerd Font', 'Courier New', Courier, monospace;
-font-size: 10pt;
-font-weight: 550;
-line-height: 1.3;
+  font-weight: bold;
+  font-size: 12pt;
+  color: #81a1c1;
 }
 
 p {
 /*margin-bottom: 8px;*/
 color: #e5e9f0;
+font-family: Cascadia Mono PL, Cascadia Code PL, 'CaskaydiaCove Nerd Font', 'Courier New', Courier, monospace;
+font-size: 10pt;
+font-weight: 550;
+line-height: 1.3;
 }
 
 text {

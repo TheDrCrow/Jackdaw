@@ -1,10 +1,14 @@
 
 $('document').ready(function () {
 
-//$("p").hide();
-//$("h5").click(function () {
-//	$(this).nextUntil("hr").toggle();
-// });
+$("p,text,hr.subsection").hide();
+$("h6").hide();
+$('.show').show();
+
+$("h5").click(function () {
+  $(this).nextUntil("hr:not(.subsection)").toggle();
+  $('.show').show();
+});
 
 $("h6,p").click(function () {
 	$(this).toggleClass("selected");
