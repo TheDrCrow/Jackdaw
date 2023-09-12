@@ -1,16 +1,20 @@
 {
 	"folders": [
 		{
+			"name": "Jackdaw",
 			"path": "."
 		},
 		{
-			"path": "..\\EBR"
-		},
-		{
+			"name": "CrowNEST",
 			"path": "../../Data from H Drive/CrowNEST"
 		},
 		{
+			"name": "CrowNEST",
 			"path": "../../OneDrive - NHS/Data from H Drive/CrowNEST"
+		},
+		{
+			"name": "DrCrowInfo",
+			"path": "../DrCrowInfo"
 		}
 	],
 	"settings": {}
