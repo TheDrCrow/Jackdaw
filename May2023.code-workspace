@@ -5,19 +5,11 @@
 			"path": "."
 		},
 		{
-<<<<<<< HEAD
-=======
-			"name": "CrowNEST",
->>>>>>> 25aa9004ba944ee79a04c901fe1b244fb84f1cef
-			"path": "../../Data from H Drive/CrowNEST"
-		},
-		{
 			"name": "CrowNEST",
 			"path": "../../OneDrive - NHS/Data from H Drive/CrowNEST"
 		},
 		{
-			"name": "DrCrowInfo",
-			"path": "../DrCrowInfo"
+			"path": "../../OneDrive - NHS/Documents/DrCrowInfo"
 		}
 	],
 	"settings": {}
