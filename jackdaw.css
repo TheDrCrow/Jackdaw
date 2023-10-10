@@ -18,9 +18,13 @@ h6 {
   color: #d08770;
 }
 
+text {
+  color: #d08770;
+}
+
 p {
 /*margin-bottom: 8px;*/
-color: #e5e9f0;
+color: #d8dee9;
 font-family: Cascadia Mono PL, Cascadia Code PL, 'CaskaydiaCove Nerd Font', 'Courier New', Courier, monospace;
 font-size: 10pt;
 font-weight: 550;
