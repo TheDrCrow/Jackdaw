@@ -3,59 +3,59 @@
 
 <head>
 <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!-- Fontawesome CSS-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
 integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 <!-- favicon -->
-  <link rel="icon" href="favicon_grey.png" type="image/png" sizes="16x16">
+<link rel="icon" href="favicon_grey.png" type="image/png" sizes="16x16">
 <!-- personal CSS-->
-  <link rel="stylesheet" href="jackdaw.css">
+<link rel="stylesheet" href="jackdaw.css">
 
-  <title>Paediatrics</title>
+<title>Paediatrics</title>
 </head>
 
 <body>
-  <div class="container-fluid d-flex flex-column flex-grow-1 vh-100 overflow-auto" id = "right">
+<div class="container-fluid d-flex flex-column flex-grow-1 vh-100 overflow-auto" id = "right">
 <!--Create the NAVBAR-->
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark">
-      <a class="navbar-brand" href="JackdawIndex.html"><span class="nord9"><i class="fas fa-crow"></i>Jackdaw</span></a>
-      <a class="navbar-nav" href="ed.html"><span><i class="fas fa-ambulance"></i>  ed  </span>  </a>
-      <a class="navbar-nav" href="onco.html"><span><i class="fas fa-smoking"></i>  onco  </span></a>
-      <a class="navbar-nav" href="head.html"><span><i class="fas fa-skull"></i> head  </span></a>
-      <a class="navbar-nav" href="chest.html"><span><i class="fas fa-x-ray"></i>  chest  </span></a>
-      <a class="navbar-nav" href="abdo.html"><span><i class="fas fa-poo"></i>  abdo  </span></a>
-      <a class="navbar-nav" href="msk.html"><span><i class="fas fa-pound-sign"></i>  msk  </span></a>
-      <a class="navbar-nav" href="paed.html"><span class="nord9"><i class="fas fa-child"></i>  paed  </span></a>
-      <a class="navbar-nav" href="Ultracrow.html"><span><i class="fas fa-magic"></i>  ultra  </span></a>
-      <button type="button" class="btn nord15" id="copyAll" type="submit" value="copyAll"><span><i class="far fa-copy"></i>  Copy All</span></button>
-    </nav>
-    <br>
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+    <a class="navbar-brand" href="JackdawIndex.html"><span class="nord9"><i class="fas fa-crow"></i>Jackdaw</span></a>
+    <a class="navbar-nav" href="ed.html"><span><i class="fas fa-ambulance"></i>  ed  </span>  </a>
+    <a class="navbar-nav" href="onco.html"><span><i class="fas fa-smoking"></i>  onco  </span></a>
+    <a class="navbar-nav" href="head.html"><span><i class="fas fa-skull"></i> head  </span></a>
+    <a class="navbar-nav" href="chest.html"><span><i class="fas fa-x-ray"></i>  chest  </span></a>
+    <a class="navbar-nav" href="abdo.html"><span><i class="fas fa-poo"></i>  abdo  </span></a>
+    <a class="navbar-nav" href="msk.html"><span><i class="fas fa-pound-sign"></i>  msk  </span></a>
+    <a class="navbar-nav" href="paed.html"><span class="nord9"><i class="fas fa-child"></i>  paed  </span></a>
+    <a class="navbar-nav" href="Ultracrow.html"><span><i class="fas fa-magic"></i>  ultra  </span></a>
+    <button type="button" class="btn nord15" id="copyAll" type="submit" value="copyAll"><span><i class="far fa-copy"></i>  Copy All</span></button>
+  </nav>
+  <br>
 <!--Create the body-->
-    <div class="row flex-grow-1 overflow-hidden">
+  <div class="row flex-grow-1 overflow-hidden">
 <!--Create the LEFT column-->
-      <div class="col-3 mh-100 overflow-auto py-2" id="left">
+    <div class="col-3 mh-100 overflow-auto py-2" id="left">
 <!--Create the LEFT column Contents.-->
 <div class="nav flex-column nav-pills" id="" role="tablist" aria-orientation="vertical">
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_general" role="tab">Neuro: General</a>
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_malformation" role="tab">Neuro: Malformations</a>
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_vascular" role="tab">Neuro: Ischaemia & Vascular</a>
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_metabolic" role="tab">Neuro: Metabolic Disorders</a>
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_inflam" role="tab">Neuro: Infectious & Inflammatory</a>
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_neoplasm" role="tab">Neuro: Tumours</a>
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_phakomatoses" role="tab">Neuro: Phakomatosis</a>
-  <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_acquired" role="tab">Neuro: Other Acquired Disorders</a>
-  <a class="nav-link nord8" id="" data-toggle="pill" href="#head" role="tab">Head & Neck</a>
-  <a class="nav-link nord10" id="" data-toggle="pill" href="#chest" role="tab">Chest & Vascular</a>
-  <a class="nav-link nord9" id="" data-toggle="pill" href="#abdo" role="tab">GIT & GU</a>
-  <a class="nav-link nord15" id="" data-toggle="pill" href="#msk" role="tab">MSK</a>
-  <a class="nav-link nord8" id="" data-toggle="pill" href="#spine" role="tab">Spine</a>
-  <br>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_general" role="tab">Neuro: General</a>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_malformation" role="tab">Neuro: Malformations</a>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_vascular" role="tab">Neuro: Ischaemia & Vascular</a>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_metabolic" role="tab">Neuro: Metabolic Disorders</a>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_inflam" role="tab">Neuro: Infectious & Inflammatory</a>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_neoplasm" role="tab">Neuro: Tumours</a>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_phakomatoses" role="tab">Neuro: Phakomatosis</a>
+<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_acquired" role="tab">Neuro: Other Acquired Disorders</a>
+<a class="nav-link nord8" id="" data-toggle="pill" href="#head" role="tab">Head & Neck</a>
+<a class="nav-link nord10" id="" data-toggle="pill" href="#chest" role="tab">Chest & Vascular</a>
+<a class="nav-link nord9" id="" data-toggle="pill" href="#abdo" role="tab">GIT & GU</a>
+<a class="nav-link nord15" id="" data-toggle="pill" href="#msk" role="tab">MSK</a>
+<a class="nav-link nord8" id="" data-toggle="pill" href="#spine" role="tab">Spine</a>
+<br>
 </div>
 </div>
 <div class="col-9 mh-100 overflow-auto py-2" id="right">
@@ -74,6 +74,16 @@ Paed Neuro: Malformations
 -->
 <div class="tab-pane fade" id="neuro_malformation" role="tabpanel">
 <h4>Neuro: Malformations</h4>
+<hr>
+<h5>Chiari 1 Malformation</h5>
+<p>Chiari 1 malformation</p>
+<p>CHIARI 1 MALFORMATION<br>
+- Tonsils: Pointed and descend xxx mm beneath the foramen magnum.<br>
+- CSF: Completely effaced around the foramen magnum.<br>
+- Ventricles: No proximal dilatation with no periventricular ooze.<br> 
+- Syrinx: No syrinx seen in the cord visualised to xxx.<br>
+- No odontoid retroflexion, short clivus, basilar invagination nor atlanto-occipital fusion seen.  
+</p>
 <hr>
 <h5>White matter injury of prematurity</h5>
 <p>White matter injury of prematurity</p>
@@ -133,7 +143,7 @@ Paed Neuro Vascular
 - White Matter: No white matter lesions seen.<br>
 - Arteries: No stenoses, thrombosis nor dilatation in ICAs & CoW.<br>
 - Skull Vault & Bone Marrow: No major expansion of vault.<br>
- --> Bone marrow is relatively low T1 in keeping with anaemia.</p>
+--> Bone marrow is relatively low T1 in keeping with anaemia.</p>
 <hr>
 </div>
 <!--
@@ -145,7 +155,7 @@ Paed Neuro Metabolic
 <h5>White Matter</h5>
 <p>
 - Myelination: xxx<br>
- --> Abnormal T1/T2 in xxx.<br
+--> Abnormal T1/T2 in xxx.<br
 </p>
 <hr>
 </div>
@@ -284,25 +294,25 @@ Paed Something
 <hr>
 </div>
 </div>
-      </div>
-    </div> <!-- class ="row"-->
-  </div> <!--Container for whole body-->
+    </div>
+  </div> <!-- class ="row"-->
+</div> <!--Container for whole body-->
 
 
 <!-- JavaScript bits-->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
 
-  <!---Put bespoke js here --->
-  <script src="jackdaw.js"></script>
+<!---Put bespoke js here --->
+<script src="jackdaw.js"></script>
 </body>
 
 </html>
