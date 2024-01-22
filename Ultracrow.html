@@ -42,6 +42,8 @@ integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQ
 <div class="col-3 mh-100 overflow-auto py-2" id="left">
 <!--Create the LEFT column Contents.-->
 <div class="nav flex-column nav-pills" id="" role="tablist" aria-orientation="vertical">
+<a class="nav-link nord15" id="" data-toggle="pill" href="#gp" role="tab">GP Referrals</a>
+
 <a class="nav-link nord14" id="" data-toggle="pill" href="#kubN" role="tab">KUB Normal</a>
 <a class="nav-link nord14" id="" data-toggle="pill" href="#kubANDiln" role="tab">KUB Paeds</a>
 <a class="nav-link nord14" id="" data-toggle="pill" href="#kubTK" role="tab">KUB Toolkit</a>
@@ -72,11 +74,23 @@ integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQ
 </div>
 <div class="col-9 mh-100 overflow-auto py-2" id="right">
 <div class="tab-content">
+<!--
+GP REFERRALS
+-->
+<div class="tab-pane fade" id="gp" role="tabpanel">
+<h4>GP Referrals</h4>
+<hr>
+<h5>Urinary System</h5>
+<p class = "show">
+This quotes P39 but this is about continuous (ie primary) incontinence and states "Imaging of the urinary tract in children with solely night-time enuresis is of limited value." Imaging for new LUTS is only indicated for failed conservative measures or other red flags.</p>
+<hr>
+</div>
 <!-- 
 URINARY 
 -->
 <div class="tab-pane fade show active" id="kubN" role="tabpanel">
 <h4>Normal Kidneys & Bladder</h4>
+<hr>
 <p class = "show">
 RIGHT SYSTEM<br>
 - Kidney: xxx <br>
@@ -133,6 +147,7 @@ BLADDER<br>
 
 <div class="tab-pane fade" id="kubANDiln" role="tabpanel">
 <h4 class="nord14">KUB Paeds</h4>
+<hr>
 <h5 class = "show">Antenatal hydronephrosis</h5>
 <p class = "show">
 RIGHT<br>
@@ -186,6 +201,7 @@ BLADDER <br>
 
 <div class="tab-pane fade" id="kubTK" role="tabpanel">
 <h4 class = "show">KUB Toolkit</h4>
+<hr>
 <h5 class = "show">Kidney</h5>
 <p class = "show">- Small, focal polar scars and calyceal dilatation in keeping with <span class="nord9">reflux nephropathy.</span></p>
 <p class = "show">- xxx simple renal cysts noted. Max= xxx cm.</p>
