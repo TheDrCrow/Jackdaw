@@ -67,6 +67,7 @@
 | Southlands Radiology    |    x83471 |                                    |
 | **HOSPITAL**            |           |                                    |
 | Bluefin                 |    x85135 | x85136                             |
+| BLuefin DAY UNIT        |    x58935 |                                    |
 | EF-A                    |    x84005 |                                    |
 | EF-B/C                  |    x85063 | x85431                             |
 | ITU                     |    x85333 | x85124                             |
@@ -83,7 +84,7 @@
 | Sameer                  |    x33473 |                                    |
 | Max                     |    x33458 |                                    |
 | Waseem                  |    x33480 |                                    |
-| **RSCH**                |    x63400 | Switchboard. DD if 6xxxx           |
+| **RSCH**                |    x63400 | Switchboard. DD if 6           |
 | **PRH**                 |    x65999 | Switchboard. DD if 6xxxx.          |
 
 
