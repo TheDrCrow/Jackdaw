@@ -22,15 +22,15 @@
 | Kim (Manager)           |    x84583 |                                    |
 | Emily                   |    x84228 |                                    |
 | Carla Supervisor        |    x86918 |                                    |
-| Mandy & Ellie MR        |    x84317 | uhsussex.mrireception.wash@nhs.net |
-| Derek & Ellie CT        |    x85548 | ctreception.wash@nhs.net           |
+| Mandy & Ellie MR        |    x84317 | <uhsussex.mrireception.wash@nhs.net> |
+| Derek & Ellie CT        |    x85548 | <ctreception.wash@nhs.net>           |
 | Karen US                |    x84075 |                                    |
 |                         |    x85406 |                                    |
-| Sandi US                |    x86424 | uhsussex.usreception.wash@nhs.net  |
+| Sandi US                |    x86424 | <uhsussex.usreception.wash@nhs.net>  |
 | Janet O & G US          |    x84076 |                                    |
 | XRay                    |    x84245 |                                    |
 | **SECRETARY**           |           |                                    |
-| Fiona King              |    x85836 | radiology.enquirieswash@nhs.net    |
+| Fiona King              |    x85836 | <radiology.enquirieswash@nhs.net>    |
 | Chloe Page              |    x85903 |                                    |
 | S/L                     |    x83471 |                                    |
 | **CONSULTANTS**         |           |                                    |
@@ -87,8 +87,7 @@
 | **RSCH**                |    x63400 | Switchboard. DD if 6           |
 | **PRH**                 |    x65999 | Switchboard. DD if 6xxxx.          |
 
-
-## GMC Numbers of Use.
+## GMC Numbers of Use
 
 | Name        | GMC     | Notes |
 |:------------|:--------|:------|
