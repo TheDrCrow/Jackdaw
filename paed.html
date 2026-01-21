@@ -2,586 +2,611 @@
 <html lang="en">
 
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- Fontawesome CSS-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-<!-- favicon -->
-<link rel="icon" href="favicon_grey.png" type="image/png" sizes="16x16">
-<!-- personal CSS-->
-<link rel="stylesheet" href="jackdaw.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Fontawesome CSS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <!-- favicon -->
+  <link rel="icon" href="favicon_grey.png" type="image/png" sizes="16x16">
+  <!-- personal CSS-->
+  <link rel="stylesheet" href="jackdaw.css">
 
-<title>Paediatrics</title>
+  <title>Paediatrics</title>
 </head>
 
 <body>
-<div class="container-fluid d-flex flex-column flex-grow-1 vh-100 overflow-auto" id = "right">
-<!--Create the NAVBAR-->
-  <nav class="navbar sticky-top navbar-expand-md navbar-dark">
-    <a class="navbar-brand" href="JackdawIndex.html"><span class="nord9"><i class="fas fa-crow"></i>Jackdaw</span></a>
-    <a class="navbar-nav" href="ed.html"><span><i class="fas fa-ambulance"></i>  ed  </span>  </a>
-    <a class="navbar-nav" href="onco.html"><span><i class="fas fa-smoking"></i>  onco  </span></a>
-    <a class="navbar-nav" href="head.html"><span><i class="fas fa-skull"></i> head  </span></a>
-    <a class="navbar-nav" href="chest.html"><span><i class="fas fa-x-ray"></i>  chest  </span></a>
-    <a class="navbar-nav" href="abdo.html"><span><i class="fas fa-poo"></i>  abdo  </span></a>
-    <a class="navbar-nav" href="msk.html"><span><i class="fas fa-pound-sign"></i>  msk  </span></a>
-    <a class="navbar-nav" href="paed.html"><span class="nord9"><i class="fas fa-child"></i>  paed  </span></a>
-    <a class="navbar-nav" href="Ultracrow.html"><span><i class="fas fa-magic"></i>  ultra  </span></a>
-    <button type="button" class="btn nord15" id="copyAll" type="submit" value="copyAll"><span><i class="far fa-copy"></i>  Copy All</span></button>
-  </nav>
-  <br>
-<!--Create the body-->
-  <div class="row flex-grow-1 overflow-hidden">
-<!--Create the LEFT column-->
-    <div class="col-3 mh-100 overflow-auto py-2" id="left">
-<!--Create the LEFT column Contents.-->
-<div class="nav flex-column nav-pills" id="" role="tablist" aria-orientation="vertical">
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_general" role="tab">Neuro: General</a>
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_malformation" role="tab">Neuro: Malformations</a>
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_vascular" role="tab">Neuro: Ischaemia & Vascular</a>
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_metabolic" role="tab">Neuro: Metabolic Disorders</a>
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_inflam" role="tab">Neuro: Infectious & Inflammatory</a>
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_neoplasm" role="tab">Neuro: Tumours</a>
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_phakomatoses" role="tab">Neuro: Phakomatosis</a>
-<a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_acquired" role="tab">Neuro: Other Acquired Disorders</a>
-<a class="nav-link nord8" id="" data-toggle="pill" href="#head" role="tab">Head & Neck</a>
-<a class="nav-link nord10" id="" data-toggle="pill" href="#chest" role="tab">Chest & Vascular</a>
-<a class="nav-link nord9" id="" data-toggle="pill" href="#abdo" role="tab">GIT & GU</a>
-<a class="nav-link nord15" id="" data-toggle="pill" href="#msk" role="tab">MSK</a>
-<a class="nav-link nord8" id="" data-toggle="pill" href="#spine" role="tab">Spine</a>
-<br>
-</div>
-</div>
-<div class="col-9 mh-100 overflow-auto py-2" id="right">
-<div class="tab-content">
-<!--
+  <div class="container-fluid d-flex flex-column flex-grow-1 vh-100 overflow-auto" id="right">
+    <!--Create the NAVBAR-->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="JackdawIndex.html"><span class="nord9"><i class="fas fa-crow"></i>Jackdaw</span></a>
+      <a class="navbar-nav" href="ed.html"><span><i class="fas fa-ambulance"></i> ed </span> </a>
+      <a class="navbar-nav" href="onco.html"><span><i class="fas fa-smoking"></i> onco </span></a>
+      <a class="navbar-nav" href="head.html"><span><i class="fas fa-skull"></i> head </span></a>
+      <a class="navbar-nav" href="chest.html"><span><i class="fas fa-x-ray"></i> chest </span></a>
+      <a class="navbar-nav" href="abdo.html"><span><i class="fas fa-poo"></i> abdo </span></a>
+      <a class="navbar-nav" href="msk.html"><span><i class="fas fa-pound-sign"></i> msk </span></a>
+      <a class="navbar-nav" href="paed.html"><span class="nord9"><i class="fas fa-child"></i> paed </span></a>
+      <a class="navbar-nav" href="Ultracrow.html"><span><i class="fas fa-magic"></i> ultra </span></a>
+      <button type="button" class="btn nord15" id="copyAll" type="submit" value="copyAll"><span><i
+            class="far fa-copy"></i> Copy All</span></button>
+    </nav>
+    <br>
+    <!--Create the body-->
+    <div class="row flex-grow-1 overflow-hidden">
+      <!--Create the LEFT column-->
+      <div class="col-3 mh-100 overflow-auto py-2" id="left">
+        <!--Create the LEFT column Contents.-->
+        <div class="nav flex-column nav-pills" id="" role="tablist" aria-orientation="vertical">
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_general" role="tab">Neuro: General</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_malformation" role="tab">Neuro:
+            Malformations</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_vascular" role="tab">Neuro: Ischaemia &
+            Vascular</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_metabolic" role="tab">Neuro: Metabolic
+            Disorders</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_inflam" role="tab">Neuro: Infectious &
+            Inflammatory</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_neoplasm" role="tab">Neuro: Tumours</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_phakomatoses" role="tab">Neuro:
+            Phakomatosis</a>
+          <a class="nav-link nord14" id="" data-toggle="pill" href="#neuro_acquired" role="tab">Neuro: Other Acquired
+            Disorders</a>
+          <a class="nav-link nord8" id="" data-toggle="pill" href="#head" role="tab">Head & Neck</a>
+          <a class="nav-link nord10" id="" data-toggle="pill" href="#chest" role="tab">Chest & Vascular</a>
+          <a class="nav-link nord9" id="" data-toggle="pill" href="#abdo" role="tab">GIT & GU</a>
+          <a class="nav-link nord15" id="" data-toggle="pill" href="#msk" role="tab">MSK</a>
+          <a class="nav-link nord8" id="" data-toggle="pill" href="#spine" role="tab">Spine</a>
+          <br>
+        </div>
+      </div>
+      <div class="col-9 mh-100 overflow-auto py-2" id="right">
+        <div class="tab-content">
+          <!--
+Paed Neuro: Technical
+-->
+          <div class="tab-pane fade show active" id="neuro_general" role="tabpanel">
+            <h4>Neuro: Reports, Technical & Normal Findings.</h4>
+            <hr>
+            <h5>Reports</h5>
+            <hr>
+            <h5>Normal Variants & Minor Pathology</h5>
+            <h6>BESS / BESSI </h6>
+            <p>CSF SPACES<br>
+              - Normal lateral, III and IV ventricles.<br>
+              - No periependymal ooze.<br>
+              - Prominent, mostly frontal, subarachnoid spaces with preserved sulci.<br>
+            </p>
+            <hr class="subsection">
+            <h6>Idiopathic Intracranial Hypertension</h6>
+            <p>Idiopathic Intracranial Hypertension</p>
+            <p>Other<br>
+              - No 'empty sella' appearance.<br>
+              - No significant optic nerve sheath fluid expansion nor posterior globe flattening.<br>
+              - No 'slit-like' ventricles.<br>
+              - No transverse sinus stenosis.
+            </p>
+            <hr>
+          </div>
+          <!--
 Paed Neuro: Malformations
 -->
-<div class = "tab-pane fade show active" id = "neuro_general" role = "tabpanel">
-<h4>Neuro: Technical, General & Findings.</h4> 
-<hr>
-<h5>Technical</h5>
-<hr>
-<h5>Normal Variants & Minor Pathology</h5>
-<h6>BESS / BESSI </h6>
-<p>CSF SPACES<br> 
-- Normal lateral, III and IV ventricles.<br> 
-- No periependymal ooze.<br> 
-- Prominent, mostly frontal, subarachnoid spaces with preserved sulci.<br>
-</p>
-<hr class="subsection">
-<h6>Idiopathic Intracranial Hypertension</h6>
-<p>Idiopathic Intracranial Hypertension</p>
-<p>Other<br>
-- No 'empty sella' appearance.<br> 
-- No significant optic nerve sheath fluid expansion nor posterior globe flattening.<br>
-- No 'slit-like' ventricles.<br>
-- No transverse sinus stenosis.
-</p>
-<hr>
-</div>
-<!--
-Paed Neuro: Malformations
--->
-<div class="tab-pane fade" id="neuro_malformation" role="tabpanel">
-<h4>Neuro: Malformations</h4>
-<hr>
-<h5>Chiari 1 Malformation</h5>
-<p>Chiari 1 malformation</p>
-<p>CHIARI 1 MALFORMATION<br>
-- Tonsils: Pointed and descend xxx mm beneath the foramen magnum.<br>
-- CSF: Completely effaced around the foramen magnum.<br>
-- Ventricles: No proximal dilatation with no periventricular ooze.<br> 
-- Syrinx: No syrinx seen in the cord visualised to xxx.<br>
-- Other: No odontoid retroflexion, short clivus, basilar invagination nor atlanto-occipital fusion seen.  
-</p>
-<hr>
-<h5>Dandy-Walker Continuum</h5>
-<h6>Normal</h6>
-<p>POSTERIOR FOSSA</p>
-<p>- IV ventricle is normal in volume and appearances.<br>
-- Torcula is in correct position.<br>
-- Vermis is reasonable in in volume and appearance with no rotation. Tegmentovermian angle is normal.<br>
-- Cisterna magna is normal size.</p>
-<h6>Not Normal</h6>
-<p><span class="nord10">Dandy-Walker Malformation</span><br>
-- Vermis is severely hypoplastic.<br>
-- IVth ventricle is dilated with enlargement of posterior fossa.<br>
-- Elevated torcular with torcular-lambdoid inversion.<br>
-- Occipital bone is scalloped and thin.<br>
-- No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination seen.
-</p>
-<p><span class="nord10">Vermian Hypoplasia</span><br>
-- Vermis is xxx hypoplastic with xxx rotation.<br>
-- Vermian folliation is normal.<br> 
-- Vermis is xxx dysplastic.<br> 
-- No posterior fossa enlargement. No torcular-lambdoid inversion.<br>
-- Occipital bone is scalloped and thin.<br>
-- No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination seen.</p>
-<p><span class="nord10">Blake Pouch Remnant</span><br>
-- Tegmentovermian angle is increased (>= 18deg).<br>
-- Normal size and morphology of vermis.<br> 
-- Occipital bone is scalloped and thin.<br>
-- No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination seen.</p>
-<p><span class = "nord10">Mega Cisterna Magna</span><br>
-- Enlarged retrocerebellar cistern (>=10mm). No mass effect.<br>
-- Normal vermis, 4th ventricle & tegmentovermian angle.<br>
-- Occipital bone is scalloped and thin.<br>
-- No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination seen.</p>
-<hr>
-<h5>Septo-Optic Dysplasia</h5>
-<p>SEPTO-OPTIC DYSPLASIA<br>
-- Absent septum pellucidum with flat-roofed ventricles.<br>
-- Both ONs, the chiasm and radiations look normal on these images.<br> 
-- Pituitary looks normal with the posterior pituitary in the right place. The stalk is not easy to see but is demonstrable and in place.<br>
-<br>
-- No schizencephaly nor polymicrogyria seen.<br> 
-- Corpus callosum looks reasonable for age.<br>
-- Both eyes looks normal and normal size with no coloboma.<br>
-- Normal olfactory bulbs demonstrated.
-</p>
-<hr>
-<h5>Arachnoid Cyst</h5>
-<p>
-ARACHNOID CYST<br> 
-- Site: xxx<br>
- --> No extension into parenchyma nor to ventricle.<br>
-- Shape & Size: Discoid. xxx W x xxx D.<br>
-- Signal: Follows CSF. No FLAIR nor ADC change.<br>
-- Border: Very well-defined with pencil thin wall.<br>
-- Mass-Effect: Pushes cortex away. No other mass effect with preservation of sulci and no vasogenic oedeme nor effect on the whole brain.<br> 
-- Other: kSvxx thinning & remodelling of overlying bone.<br> 
-</p>
-<hr>
-<h5>Olfactory Apparatus</h5>
-<p>OLFACTORY APPARATUS<br>
-- Olfactory bulb and tracts demonstrated in the usual positions.<br>
-- No intra or extra axial lesions seen nearby.<br>
-- Normal midline structures and medial temporal lobes.
-</p>
-<hr>
-<h5>III Nerve Palsy</h5>
-<h6>Congenital</h6>
-<p>CONGENITAL III PALSY<br>
-- No brain parenchymal gliosis or other lesion.<br>
-- No sign of septo-optic dysplasia with normal size ONs bilaterally.<br>
-- No orbital or orbital apex lesion seen on these images. No obvious facial lesion nor posterior fossa lesion to suggest PHACE.<br>
-- No sign of ICA agenesis with both intracranial ICAs present and appearing grossly normal.
-</p>
-<hr>
-<h5>Sturge-Weber Syndrome</h5>
-<text>Normal MR</text>
-<p>STURGE-WEBER SYNDROME<br>
-- No parenchymal atrophy demonstrated.<br>
-- Normal myelination for age with no acceleration demonstrated.<br> 
-- No abnormal flow voids on T2.<br>
-- No convincing bright FLAIR in sulci.<br> 
-- Choroid plexi are not enlarged and are symmetrical.<br>
-- No leptomeningeal enhancement.
-</p>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="neuro_malformation" role="tabpanel">
+            <h4>Neuro: Malformations</h4>
+            <hr>
+            <h5>Chiari 1 Malformation</h5>
+            <p>Chiari 1 malformation</p>
+            <p>CHIARI 1 MALFORMATION<br>
+              - Tonsils: Pointed and descend xxx mm beneath the foramen magnum.<br>
+              - CSF: Completely effaced around the foramen magnum.<br>
+              - Ventricles: No proximal dilatation with no periventricular ooze.<br>
+              - Syrinx: No syrinx seen in the cord visualised to xxx.<br>
+              - Other: No odontoid retroflexion, short clivus, basilar invagination nor atlanto-occipital fusion seen.
+            </p>
+            <hr>
+            <h5>Dandy-Walker Continuum</h5>
+            <h6>Normal</h6>
+            <p>POSTERIOR FOSSA</p>
+            <p>- IV ventricle is normal in volume and appearances.<br>
+              - Torcula is in correct position.<br>
+              - Vermis is reasonable in in volume and appearance with no rotation. Tegmentovermian angle is normal.<br>
+              - Cisterna magna is normal size.</p>
+            <h6>Not Normal</h6>
+            <p><span class="nord10">Dandy-Walker Malformation</span><br>
+              - Vermis is severely hypoplastic.<br>
+              - IVth ventricle is dilated with enlargement of posterior fossa.<br>
+              - Elevated torcular with torcular-lambdoid inversion.<br>
+              - Occipital bone is scalloped and thin.<br>
+              - No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination
+              seen.
+            </p>
+            <p><span class="nord10">Vermian Hypoplasia</span><br>
+              - Vermis is xxx hypoplastic with xxx rotation.<br>
+              - Vermian folliation is normal.<br>
+              - Vermis is xxx dysplastic.<br>
+              - No posterior fossa enlargement. No torcular-lambdoid inversion.<br>
+              - Occipital bone is scalloped and thin.<br>
+              - No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination
+              seen.</p>
+            <p><span class="nord10">Blake Pouch Remnant</span><br>
+              - Tegmentovermian angle is increased (>= 18deg).<br>
+              - Normal size and morphology of vermis.<br>
+              - Occipital bone is scalloped and thin.<br>
+              - No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination
+              seen.</p>
+            <p><span class="nord10">Mega Cisterna Magna</span><br>
+              - Enlarged retrocerebellar cistern (>=10mm). No mass effect.<br>
+              - Normal vermis, 4th ventricle & tegmentovermian angle.<br>
+              - Occipital bone is scalloped and thin.<br>
+              - No hydrocephalus, polymicrogyria or grey matter heterotopia, callosal lesions or delayed myelination
+              seen.</p>
+            <hr>
+            <h5>Septo-Optic Dysplasia</h5>
+            <p>SEPTO-OPTIC DYSPLASIA<br>
+              - Absent septum pellucidum with flat-roofed ventricles.<br>
+              - Both ONs, the chiasm and radiations look normal on these images.<br>
+              - Pituitary looks normal with the posterior pituitary in the right place. The stalk is not easy to see but
+              is demonstrable and in place.<br>
+              <br>
+              - No schizencephaly nor polymicrogyria seen.<br>
+              - Corpus callosum looks reasonable for age.<br>
+              - Both eyes looks normal and normal size with no coloboma.<br>
+              - Normal olfactory bulbs demonstrated.
+            </p>
+            <hr>
+            <h5>Arachnoid Cyst</h5>
+            <p>
+              ARACHNOID CYST<br>
+              - Site: xxx<br>
+              --> No extension into parenchyma nor to ventricle.<br>
+              - Shape & Size: Discoid. xxx W x xxx D.<br>
+              - Signal: Follows CSF. No FLAIR nor ADC change.<br>
+              - Border: Very well-defined with pencil thin wall.<br>
+              - Mass-Effect: Pushes cortex away. No other mass effect with preservation of sulci and no vasogenic oedeme
+              nor effect on the whole brain.<br>
+              - Other: kSvxx thinning & remodelling of overlying bone.<br>
+            </p>
+            <hr>
+            <h5>Olfactory Apparatus</h5>
+            <p>OLFACTORY APPARATUS<br>
+              - Olfactory bulb and tracts demonstrated in the usual positions.<br>
+              - No intra or extra axial lesions seen nearby.<br>
+              - Normal midline structures and medial temporal lobes.
+            </p>
+            <hr>
+            <h5>III Nerve Palsy</h5>
+            <h6>Congenital</h6>
+            <p>CONGENITAL III PALSY<br>
+              - No brain parenchymal gliosis or other lesion.<br>
+              - No sign of septo-optic dysplasia with normal size ONs bilaterally.<br>
+              - No orbital or orbital apex lesion seen on these images. No obvious facial lesion nor posterior fossa
+              lesion to suggest PHACE.<br>
+              - No sign of ICA agenesis with both intracranial ICAs present and appearing grossly normal.
+            </p>
+            <hr>
+            <h5>Sturge-Weber Syndrome</h5>
+            <text>Normal MR</text>
+            <p>STURGE-WEBER SYNDROME<br>
+              - No parenchymal atrophy demonstrated.<br>
+              - Normal myelination for age with no acceleration demonstrated.<br>
+              - No abnormal flow voids on T2.<br>
+              - No convincing bright FLAIR in sulci.<br>
+              - Choroid plexi are not enlarged and are symmetrical.<br>
+              - No leptomeningeal enhancement.
+            </p>
+            <hr>
+          </div>
+          <!--
 Paed Neuro Vascular
 -->
-<div class="tab-pane fade" id="neuro_vascular" role="tabpanel">
-<h4>Neuro: HIE & Vascular</h4>
-<hr>
-<h5>White matter injury of prematurity</h5>
-<p>White matter injury of prematurity</p>
-<p>WHITE MATTER<br>
-- Reduced volume white matter in parieto-occipital lobes.<br>
-- Ex vacuo expansion of lateral ventricles.<br>
-- Mildly thin splenium of corpus callosum.<br> 
-- No cysts nor gliosis seen.</p>
-<p>- Appearances consistent with white matter injury of prematurity.</p>
-<hr>
-<h5>General MRA & MRV</h5>
-<p>MRA<br>
-- ICAs: Normal cervical, petrous and intracranial parts.<br>
-- ACA/MCA: Normal and normal AComA.<br>
-- Posterior: Normal V4s, basilar and PCAs.</p>
-<hr class = "subsection">
-<p>MRV<br>
-- ICVs, Galen, Straight Sinus: Patent.<br>
-- SSS: Patent.<br>
-- Transverse, Sigmoid and Jugulars:<br>
- --> RIGHT: Patent.<br>
- --> LEFT: Patent.<br> 
-</p>
-<hr>
-<h5>Sickle Cell Disease</h5>
-<p>SICKLE CELL DISEASE <br>
-- White Matter: xxx<br>
-- Arteries: xxx <br>
-- Skull Vault & Bone Marrow: xxx</p>
-<p>SICKLE CELL DISEASE<br>
-- White Matter: No white matter lesions seen.<br>
-- Arteries: No stenoses, thrombosis nor dilatation in ICAs & CoW.<br>
-- Skull Vault & Bone Marrow: No major expansion of vault.<br>
---> Bone marrow is relatively low T1 in keeping with anaemia.</p>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="neuro_vascular" role="tabpanel">
+            <h4>Neuro: HIE & Vascular</h4>
+            <hr>
+            <h5>White matter injury of prematurity</h5>
+            <p>White matter injury of prematurity</p>
+            <p>WHITE MATTER<br>
+              - Reduced volume white matter in parieto-occipital lobes.<br>
+              - Ex vacuo expansion of lateral ventricles.<br>
+              - Mildly thin splenium of corpus callosum.<br>
+              - No cysts nor gliosis seen.</p>
+            <p>- Appearances consistent with white matter injury of prematurity.</p>
+            <hr>
+            <h5>General MRA & MRV</h5>
+            <p>MRA<br>
+              - ICAs: Normal cervical, petrous and intracranial parts.<br>
+              - ACA/MCA: Normal and normal AComA.<br>
+              - Posterior: Normal V4s, basilar and PCAs.</p>
+            <hr class="subsection">
+            <p>MRV<br>
+              - ICVs, Galen, Straight Sinus: Patent.<br>
+              - SSS: Patent.<br>
+              - Transverse, Sigmoid and Jugulars:<br>
+              --> RIGHT: Patent.<br>
+              --> LEFT: Patent.<br>
+            </p>
+            <hr>
+            <h5>Sickle Cell Disease</h5>
+            <p>SICKLE CELL DISEASE <br>
+              - White Matter: xxx<br>
+              - Arteries: xxx <br>
+              - Skull Vault & Bone Marrow: xxx</p>
+            <p>SICKLE CELL DISEASE<br>
+              - White Matter: No white matter lesions seen.<br>
+              - Arteries: No stenoses, thrombosis nor dilatation in ICAs & CoW.<br>
+              - Skull Vault & Bone Marrow: No major expansion of vault.<br>
+              --> Bone marrow is relatively low T1 in keeping with anaemia.</p>
+            <hr>
+          </div>
+          <!--
 Paed Neuro Metabolic
 -->
-<div class="tab-pane fade" id="neuro_metabolic" role="tabpanel">
-<h4>Neuro: Metabolic Disorders</h4>
-<hr>
-<h5>White Matter</h5>
-<p>
-- Myelination: xxx<br>
---> Abnormal T1/T2 in xxx.<br
-</p>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="neuro_metabolic" role="tabpanel">
+            <h4>Neuro: Metabolic Disorders</h4>
+            <hr>
+            <h5>White Matter</h5>
+            <p>
+              - Myelination: xxx<br>
+              --> Abnormal T1/T2 in xxx.<br </p>
+              <hr>
+          </div>
+          <!--
 Paed Neuro Inflammatory
 -->
-<div class="tab-pane fade" id="neuro_inflam" role="tabpanel">
-<h4>Neuro: Infectious and Inflammatory Lesions.</h4>
-<hr>
-<h5>Lupus</h5>
-<p>NEUROLUPUS<br>
-- Multifocal white matter hyperintensities: None.<br>
-- White/Grey matter mass-like lesions: None.<br> 
-- Haemorrhage: No acute haem nor microbleeds seen on SWI.<br>
-- Prior Infarcts: None.<br> 
-- Other: No sign of PRES nor post-ictal oedema. No gross sign of venous clot.</p>
-<p>NEUROLUPUS<br>
-- Multifocal white matter hyperintensities: xxx.<br>
-- White/Grey matter mass-like lesions: xxx.<br> 
-- Haemorrhage: No acute haem nor microbleeds seen on SWI.<br>
-- Prior Infarcts: xxx.<br> 
-- Other: No sign of PRES nor post-ictal oedema. No gross sign of venous clot.</p>
-<hr>
-<h5>Demyelination</h5>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="neuro_inflam" role="tabpanel">
+            <h4>Neuro: Infectious and Inflammatory Lesions.</h4>
+            <hr>
+            <h5>Lupus</h5>
+            <p>NEUROLUPUS<br>
+              - Multifocal white matter hyperintensities: None.<br>
+              - White/Grey matter mass-like lesions: None.<br>
+              - Haemorrhage: No acute haem nor microbleeds seen on SWI.<br>
+              - Prior Infarcts: None.<br>
+              - Other: No sign of PRES nor post-ictal oedema. No gross sign of venous clot.</p>
+            <p>NEUROLUPUS<br>
+              - Multifocal white matter hyperintensities: xxx.<br>
+              - White/Grey matter mass-like lesions: xxx.<br>
+              - Haemorrhage: No acute haem nor microbleeds seen on SWI.<br>
+              - Prior Infarcts: xxx.<br>
+              - Other: No sign of PRES nor post-ictal oedema. No gross sign of venous clot.</p>
+            <hr>
+            <h5>Demyelination</h5>
+            <hr>
+          </div>
+          <!--
 Paed Neuro Neoplasms
 -->
-<div class="tab-pane fade" id="neuro_neoplasm" role="tabpanel">
-<h4>Neuro: Neoplasms & Treatment</h4>
-<hr>
-<h5>General</h5>
-<p>xxx MASS</p>
-<p>- Site: xxx,<br>
-- Size & Shape: xxx<br>
-- Signal: xxx T1, xxx T2.<br> 
- --> xxx ADC.<br> 
-- Enhancement: xxx<br>
-- Border & Invasion: xxx<br>
-- Effects: xxx<br>
-- Other: xxx<br>
-</p>
-<hr>
-<h5>Post Treatment / Follow Up</h5>
-<p>xxx<br><br>
-- Allowing for technical differences, there are no changes in the size, signal, diffusion nor enhancement of this lesion.<br>
-- No change to the mass effect.
-</p>
-<p>OTHER<br><br>
-- No other lesion seen.<br>
-- The rest of the brain looks normal with normal development.
-<hr class="subsection"> 
-<h6>Post Op / RT</h6>
-<p>XXX<br><br>
-- No mass, focal enhancement nor restricted diffusion change to suggest recurrence.<br> 
-- There are post-op/RT changes with architectural distortion and gliosis but these are also unchanged. 
-</p>
-<hr class="subsection"> 
-<h6>Spine</h6>
-<p>
-INTRADURAL<br><br>
-- No mass nor enhancing lesion seen to suggest recurrence.<br>
-- Cord appears normal.<br>
-</p>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="neuro_neoplasm" role="tabpanel">
+            <h4>Neuro: Neoplasms & Treatment</h4>
+            <hr>
+            <h5>General</h5>
+            <p>xxx MASS</p>
+            <p>- Site: xxx,<br>
+              - Size & Shape: xxx<br>
+              - Signal: xxx T1, xxx T2.<br>
+              --> xxx ADC.<br>
+              - Enhancement: xxx<br>
+              - Border & Invasion: xxx<br>
+              - Effects: xxx<br>
+              - Other: xxx<br>
+            </p>
+            <hr>
+            <h5>Post Treatment / Follow Up</h5>
+            <p>xxx<br><br>
+              - Allowing for technical differences, there are no changes in the size, signal, diffusion nor enhancement
+              of this lesion.<br>
+              - No change to the mass effect.
+            </p>
+            <p>OTHER<br><br>
+              - No other lesion seen.<br>
+              - The rest of the brain looks normal with normal development.
+              <hr class="subsection">
+            <h6>Post Op / RT</h6>
+            <p>XXX<br><br>
+              - No mass, focal enhancement nor restricted diffusion change to suggest recurrence.<br>
+              - There are post-op/RT changes with architectural distortion and gliosis but these are also unchanged.
+            </p>
+            <hr class="subsection">
+            <h6>Spine</h6>
+            <p>
+              INTRADURAL<br><br>
+              - No mass nor enhancing lesion seen to suggest recurrence.<br>
+              - Cord appears normal.<br>
+            </p>
+            <hr>
+          </div>
+          <!--
 Paed Neuro Phakomatosis 
 -->
-<div class="tab-pane fade" id="neuro_phakomatoses" role="tabpanel">
-<h4>Neuro: Phakomatoses</h4>
-<hr>
-<h5>Tuberous Sclerosis Complex</h5>
-<p>TUBEROUS SCLEROSIS COMPLEX<br>
-- Cortical/Subcortical Lesions: xxx<br>
-- Cerebellar Tubers: xxx<br>
-- Subependymal Nodules: xxx<br>
-- Subependymal Giant Cell Astrocytoma: xxx<br>
-- Aneurysms: xxx</p>
-<hr>
-<h5>Neurofibromatosis</h5>
-<p>NEUROFIBROMATOSIS TYPE 1<br> 
-- Focal Abnormal Signal Intensities: xxx<br>
-- Optic Pathway Gliomas: xxx<br>
-- Plexiform Neurofibromata: xxx<br> 
-<br>
-- Myelination Delay: xxx<br>
-- Vessels: No ICA stenoses or others.<br> 
-<br>
-- Orbit & Sphenoids: Normal on these images.<br>
-- Lambdoid: No gross bony defect on these images.</p>
-<hr class="subsection">
-<h6>Spine</h6>
-<p>NF1<br>
-- No kyphosis nor scoliosis seen.<br> 
-- No dural ectasia nor lateral meningocele seen.<br> 
-- No intramedullary nor intradural masses seen.<br> 
-- No nerve root tumours seen.</p>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="neuro_phakomatoses" role="tabpanel">
+            <h4>Neuro: Phakomatoses</h4>
+            <hr>
+            <h5>Tuberous Sclerosis Complex</h5>
+            <p>TUBEROUS SCLEROSIS COMPLEX<br>
+              - Cortical/Subcortical Lesions: xxx<br>
+              - Cerebellar Tubers: xxx<br>
+              - Subependymal Nodules: xxx<br>
+              - Subependymal Giant Cell Astrocytoma: xxx<br>
+              - Aneurysms: xxx</p>
+            <hr>
+            <h5>Neurofibromatosis</h5>
+            <p>NEUROFIBROMATOSIS TYPE 1<br>
+              - Focal Abnormal Signal Intensities: xxx<br>
+              - Optic Pathway Gliomas: xxx<br>
+              - Plexiform Neurofibromata: xxx<br>
+              <br>
+              - Myelination Delay: xxx<br>
+              - Vessels: No ICA stenoses or others.<br>
+              <br>
+              - Orbit & Sphenoids: Normal on these images.<br>
+              - Lambdoid: No gross bony defect on these images.
+            </p>
+            <hr class="subsection">
+            <h6>Spine</h6>
+            <p>NF1<br>
+              - No kyphosis nor scoliosis seen.<br>
+              - No dural ectasia nor lateral meningocele seen.<br>
+              - No intramedullary nor intradural masses seen.<br>
+              - No nerve root tumours seen.</p>
+            <hr>
+          </div>
+          <!--
 Paed Neuro Acquired
 -->
-<div class="tab-pane fade" id="neuro_acquired" role="tabpanel">
-<h4>Neuro: Other Acquired Disorders</h4>
-<hr>
-<h5>Post-Op Appearances</h5>
-<p>POST-OP FOLLOW UP.<br>
-- No change in the appearances of the xxx craniotomy and xxx underlying brain changes.<br>
-- No change to the appearances of the prior xxx ventricular drain path.<br>
-- No sign of recurrence.</p>
-<hr>
-<h5>Cocaine</h5>
-<p>Grossly normal cerebral and cerebellar volumes</p>
-<p>Grossly normal volumes of cortical grey matter, thalami and putamens.</p>
-<p>The changes asssociated with maternal cocaine use are normally very subtle and only demonstrable on volumetric comparison with a 'non-exposed' cohort. A normal scan does not predict the absence of developmental issues.</p>
-<hr>
-<h5>Central Precocious Puberty</h5>
-<text>More useful in IMPRESSION of MR PITUITARY</text>
-<p>CENTRAL PRECOCIOUS PUBERTY</p>
-<p>- No hypothalamic, pineal nor optic nerve mass lesion demonstrated.<br>
-- No other masses nor features of NF or TSC seen.<br>
-- No glial scars nor hydrocephalus seen.<br>
-- No cause for CPP demonstrated.</p>
-<p>- No cause for central precocious puberty seen.</p>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="neuro_acquired" role="tabpanel">
+            <h4>Neuro: Other Acquired Disorders</h4>
+            <hr>
+            <h5>Post-Op Appearances</h5>
+            <p>POST-OP FOLLOW UP.<br>
+              - No change in the appearances of the xxx craniotomy and xxx underlying brain changes.<br>
+              - No change to the appearances of the prior xxx ventricular drain path.<br>
+              - No sign of recurrence.</p>
+            <hr>
+            <h5>Cocaine</h5>
+            <p>Grossly normal cerebral and cerebellar volumes</p>
+            <p>Grossly normal volumes of cortical grey matter, thalami and putamens.</p>
+            <p>The changes asssociated with maternal cocaine use are normally very subtle and only demonstrable on
+              volumetric comparison with a 'non-exposed' cohort. A normal scan does not predict the absence of
+              developmental issues.</p>
+            <hr>
+            <h5>Central Precocious Puberty</h5>
+            <text>More useful in IMPRESSION of MR PITUITARY</text>
+            <p>CENTRAL PRECOCIOUS PUBERTY</p>
+            <p>- No hypothalamic, pineal nor optic nerve mass lesion demonstrated.<br>
+              - No other masses nor features of NF or TSC seen.<br>
+              - No glial scars nor hydrocephalus seen.<br>
+              - No cause for CPP demonstrated.</p>
+            <p>- No cause for central precocious puberty seen.</p>
+            <hr>
+          </div>
+          <!--
 Paed Head and Neck
 -->
-<div class="tab-pane fade" id="head" role="tabpanel">
-<h4>Head and Neck</h4>
-<hr>
-<h5>Craniosynostosis</h5>
-<p>Craniosynostosis<br>
-- Sagittal Suture: xxx<br>
-- Coronal Sutures: xxx<br>
-- Lambdoid Sutures: xxx<br>
-<br>
-- Other: xxx<br>
-</p>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="head" role="tabpanel">
+            <h4>Head and Neck</h4>
+            <hr>
+            <h5>Craniosynostosis</h5>
+            <p>Craniosynostosis<br>
+              - Sagittal Suture: xxx<br>
+              - Coronal Sutures: xxx<br>
+              - Lambdoid Sutures: xxx<br>
+              <br>
+              - Other: xxx<br>
+            </p>
+            <hr>
+          </div>
+          <!--
 Paed Chest
 -->
-<div class="tab-pane fade" id="chest" role="tabpanel">
-<h4>Chest & Vessels</h4>
-<hr>
-<h5>Subtitle</h5>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="chest" role="tabpanel">
+            <h4>Chest & Vessels</h4>
+            <hr>
+            <h5>Subtitle</h5>
+            <hr>
+          </div>
+          <!--
 Paed Abdo 
 -->
-<div class="tab-pane fade" id="abdo" role="tabpanel">
-<h4>Abdomen</h4>
-<a class="btn btn-sm greyonmediumblue" target="_blank" href="https://www.clinicalkey.com/#!/content/book/3-s2.0-B9780702042324000211?scrollTo=%23hl0000120" role="button">Foreign Bodies</a>
-<hr>
-<h5>Foreign Bodies</h5>
-<hr>
-</div>
-<!--
+          <div class="tab-pane fade" id="abdo" role="tabpanel">
+            <h4>Abdomen</h4>
+            <a class="btn btn-sm greyonmediumblue" target="_blank"
+              href="https://www.clinicalkey.com/#!/content/book/3-s2.0-B9780702042324000211?scrollTo=%23hl0000120"
+              role="button">Foreign Bodies</a>
+            <hr>
+            <h5>Foreign Bodies</h5>
+            <hr>
+          </div>
+          <!--
 Paed MSK
 -->
-<div class="tab-pane fade" id="msk" role="tabpanel">
-<h4>Musculoskeletal</h4>
-<hr>
-<h5>NAI</h5>
-<h6>Second Read</h6>
-<p>Second Read.<br><br>
-- I agree with the findings.<br>
-- No sign of bony injury.<br>
-- Normal skeletal survey.<br><br>
-Dr NJ DAVIES (GMC:4113698)<br>
-Consultant Radiologist, Worthing Hospital.<br>
-University Hospitals Sussex NHS Trust.<br>
-</p>
-<hr>
-<h5>DDH</h5>
-<h6>Post Op CT</h6>
-<text>Dega = osteotomy with fragment from femoral osteotomy inserted into Iliac acetabuloplasty. Similar to Pembertons. pp 928 of Stein-Wexler</text>
-<hr class="subsection"> 
-<p>xxx HIP<br>
-- Dega osteotomy noted with femoral fragment in situ.<br>
-- Acetabular coverage and index angle much improved.<br>
-- Femoral head is in situ.<br> 
- --> Delayed ossification of femoral head noted.<br> 
-- No extrusion of bone graft. No intra-articular extension of osteotomy.<br><br> 
-- xxx upper femoral osteotomy with plate and screws noted.
- --> No abnormality seen here.<br><br>
-xxx HIP<br>  
-- Normal appearances.<br><br>
-OTHER<br> 
-- Extensive post-op fluid/gas in upper thigh and pelvic musculature.<br> 
-- Extra-peritoneal and retroperitoneal gas also noted.<br> 
-- No other acute change seen.<br> 
-</p>
-<hr>
-<h5>Legg-Calve-Perthes</h5>
-<text>MRI ~ Avascular / Necrotic Phase</text>
-<p>
-xxx HIP<br>
-- xxx of LEFT femoral head is abnormal.<br> 
- --> Collapse: xxx -> xxx mm compared with other side.<br>
- --> T1: Generally low but subchondral very low.<br>
- --> T2: Heterogeneous with mostly low patches. But subchondral high T2 cleft present in xxx.<br>
- --> Overlying Cartilage: Normal and appears intact.<br>
- --> Cysts: No cysts seen around the physis.<br><br>
-- Small effusion noted. 
-</p>
-<hr>
-<h5>Femoral Anteversion & Tibial Torsion</h5>
-<text>The lines described are those on pp425-426 of Stein-Wexler</text>
-<hr class="subsection">
-<p>
-FEMORAL TORSION<br>
-- RIGHT <br>
- --> Line along femoral neck = xxx° external rotation to horizontal baseline.<br> 
- --> Tangent along posterior border femoral condyles = xxx° external rotation to horizontal baseline.<br> 
-= Thus Femoral anteversion = xxx°<br> 
-<br>
-- LEFT<br>
-  --> Line along femoral neck = xxx° external rotation to horizontal baseline.<br> 
- --> Tangent along posterior border femoral condyles = xxx° external rotation to horizontal baseline.<br> 
-= Thus Femoral anteversion = xxx°<br> 
-<br>
-TIBIAL TORSION<br> 
-- RIGHT<br> 
- --> Posterior Condylar Axis = xxx° externally rotated to horizontal baseline.<br> 
- --> Transmalleolar Axis = xxx° externally rotated to horizontal baseline.<br> 
-= Thus, Tibial torsion = xxx° external rotation at ankle.<br> 
-<br>
-- LEFT<br> 
- --> Posterior Condylar Axis = xxx° externally rotated horizontal baseline.<br> 
- --> Transmalleolar Axis = xxx° externally rotated to horizontal baseline.<br> 
-= Thus, Tibial torsion = xxx° external rotation at ankle.<br> 
-<hr class = "subsection">
-</p>
-<p>
-BONE & JOINT<br>
-- No other bone lesion seen.<br> 
-- No major degenerative or other finding in the joints visualised.<br> 
-<br>
-SOFT TISSUES<br>
-- No acute soft tissue lesions seen.<br>
-</p>
-<hr>
-<h5>Genu Valgum</h5>
-<h6>Findings not of Blount, but of Developmental Genu Valgum</h6>
-<p>
-FINDINGS<br>
-TIBIOFEMORAL ANGLE<br>
-- RIGHT: xxx°<br>
-- LEFT: xxx°<br><br>
-TIBIAL METAPHYSEAL-DIAPHYSEAL ANGLE (N <8-11°)<br>
-- RIGHT: xxx°<br>
-- LEFT: xxx°<br><br>
-OTHER<br>
-- Both tibias are mildly adducted compared with femurs.<br>
-- Bilateral, metaphyseal osseous beaks in both distal femurs and upper tibia.<br>
-- Bilateral wedging of the medial epiphyses of the distal femurs.<br>
-- Medial cortices of both femurs and tibia are thickened.<br><br>
-BONE<br>
-- Normal mineralization and appearances of the underlying bone.<br><br>
-IMPRESSION<br> 
-- There is bilateral genu valgum but the appearances are not those of Blounts and are more in keeping with developmental bowing.<br>
-</p>
-<hr>
-<h5>Juvenile OCD</h5>
-<h6>Radiographic Features</h6>
-<p>
-- Progeny Bone Fragment<br>
- --> Mineralisation: Normal | Abnormal<br>
- --> Fragmentation: None | Present<br> 
- --> Displacement: None | Partial | Complete<br>
- --> Centre Density: Normal | Increased | Decreased<br> 
- --> Contour: Convex | Linear | Concave<br>
-- Boundary at Interface<br>
- --> Distinct | Indistinct<br> 
-- Parent Bone<br>
- --> Peripheral Radiodensity: Normal | Abnormal<br>
-</p>
-<hr class = "subsection">
-<h6>MRI Features</h6>
-<p>
-- Direct Signs<br>
- --> Crater +/- IA Body: None | Present<br>
- --> Loss of Radius of Curvature: None | Present<br>
- --> Cartilage Injury: None | Present<br>
-<br>
-- Indirect Signs<br>
- --> High Signal Interface: None | Present<br>
- --> Cysts: None | Non-significant | Circumferential small | >5mm cyst(s)
-</p>
-</div>
-<!--
+          <div class="tab-pane fade" id="msk" role="tabpanel">
+            <h4>Musculoskeletal</h4>
+            <hr>
+            <h5>NAI</h5>
+            <h6>Second Read</h6>
+            <p>Second Read.<br><br>
+              - I agree with the findings.<br>
+              - No sign of bony injury.<br>
+              - Normal skeletal survey.<br><br>
+              Dr NJ DAVIES (GMC:4113698)<br>
+              Consultant Radiologist, Worthing Hospital.<br>
+              University Hospitals Sussex NHS Trust.<br>
+            </p>
+            <hr>
+            <h5>DDH</h5>
+            <h6>Post Op CT</h6>
+            <text>Dega = osteotomy with fragment from femoral osteotomy inserted into Iliac acetabuloplasty. Similar to
+              Pembertons. pp 928 of Stein-Wexler</text>
+            <hr class="subsection">
+            <p>xxx HIP<br>
+              - Dega osteotomy noted with femoral fragment in situ.<br>
+              - Acetabular coverage and index angle much improved.<br>
+              - Femoral head is in situ.<br>
+              --> Delayed ossification of femoral head noted.<br>
+              - No extrusion of bone graft. No intra-articular extension of osteotomy.<br><br>
+              - xxx upper femoral osteotomy with plate and screws noted.
+              --> No abnormality seen here.<br><br>
+              xxx HIP<br>
+              - Normal appearances.<br><br>
+              OTHER<br>
+              - Extensive post-op fluid/gas in upper thigh and pelvic musculature.<br>
+              - Extra-peritoneal and retroperitoneal gas also noted.<br>
+              - No other acute change seen.<br>
+            </p>
+            <hr>
+            <h5>Legg-Calve-Perthes</h5>
+            <text>MRI ~ Avascular / Necrotic Phase</text>
+            <p>
+              xxx HIP<br>
+              - xxx of LEFT femoral head is abnormal.<br>
+              --> Collapse: xxx -> xxx mm compared with other side.<br>
+              --> T1: Generally low but subchondral very low.<br>
+              --> T2: Heterogeneous with mostly low patches. But subchondral high T2 cleft present in xxx.<br>
+              --> Overlying Cartilage: Normal and appears intact.<br>
+              --> Cysts: No cysts seen around the physis.<br><br>
+              - Small effusion noted.
+            </p>
+            <hr>
+            <h5>Femoral Anteversion & Tibial Torsion</h5>
+            <text>The lines described are those on pp425-426 of Stein-Wexler</text>
+            <hr class="subsection">
+            <p>
+              FEMORAL TORSION<br>
+              - RIGHT <br>
+              --> Line along femoral neck = xxx° external rotation to horizontal baseline.<br>
+              --> Tangent along posterior border femoral condyles = xxx° external rotation to horizontal baseline.<br>
+              = Thus Femoral anteversion = xxx°<br>
+              <br>
+              - LEFT<br>
+              --> Line along femoral neck = xxx° external rotation to horizontal baseline.<br>
+              --> Tangent along posterior border femoral condyles = xxx° external rotation to horizontal baseline.<br>
+              = Thus Femoral anteversion = xxx°<br>
+              <br>
+              TIBIAL TORSION<br>
+              - RIGHT<br>
+              --> Posterior Condylar Axis = xxx° externally rotated to horizontal baseline.<br>
+              --> Transmalleolar Axis = xxx° externally rotated to horizontal baseline.<br>
+              = Thus, Tibial torsion = xxx° external rotation at ankle.<br>
+              <br>
+              - LEFT<br>
+              --> Posterior Condylar Axis = xxx° externally rotated horizontal baseline.<br>
+              --> Transmalleolar Axis = xxx° externally rotated to horizontal baseline.<br>
+              = Thus, Tibial torsion = xxx° external rotation at ankle.<br>
+              <hr class="subsection">
+            </p>
+            <p>
+              BONE & JOINT<br>
+              - No other bone lesion seen.<br>
+              - No major degenerative or other finding in the joints visualised.<br>
+              <br>
+              SOFT TISSUES<br>
+              - No acute soft tissue lesions seen.<br>
+            </p>
+            <hr>
+            <h5>Genu Valgum</h5>
+            <h6>Findings not of Blount, but of Developmental Genu Valgum</h6>
+            <p>
+              FINDINGS<br>
+              TIBIOFEMORAL ANGLE<br>
+              - RIGHT: xxx°<br>
+              - LEFT: xxx°<br><br>
+              TIBIAL METAPHYSEAL-DIAPHYSEAL ANGLE (N <8-11°)<br>
+                - RIGHT: xxx°<br>
+                - LEFT: xxx°<br><br>
+                OTHER<br>
+                - Both tibias are mildly adducted compared with femurs.<br>
+                - Bilateral, metaphyseal osseous beaks in both distal femurs and upper tibia.<br>
+                - Bilateral wedging of the medial epiphyses of the distal femurs.<br>
+                - Medial cortices of both femurs and tibia are thickened.<br><br>
+                BONE<br>
+                - Normal mineralization and appearances of the underlying bone.<br><br>
+                IMPRESSION<br>
+                - There is bilateral genu valgum but the appearances are not those of Blounts and are more in keeping
+                with developmental bowing.<br>
+            </p>
+            <hr>
+            <h5>Juvenile OCD</h5>
+            <h6>Radiographic Features</h6>
+            <p>
+              - Progeny Bone Fragment<br>
+              --> Mineralisation: Normal | Abnormal<br>
+              --> Fragmentation: None | Present<br>
+              --> Displacement: None | Partial | Complete<br>
+              --> Centre Density: Normal | Increased | Decreased<br>
+              --> Contour: Convex | Linear | Concave<br>
+              - Boundary at Interface<br>
+              --> Distinct | Indistinct<br>
+              - Parent Bone<br>
+              --> Peripheral Radiodensity: Normal | Abnormal<br>
+            </p>
+            <hr class="subsection">
+            <h6>MRI Features</h6>
+            <p>
+              - Direct Signs<br>
+              --> Crater +/- IA Body: None | Present<br>
+              --> Loss of Radius of Curvature: None | Present<br>
+              --> Cartilage Injury: None | Present<br>
+              <br>
+              - Indirect Signs<br>
+              --> High Signal Interface: None | Present<br>
+              --> Cysts: None | Non-significant | Circumferential small | >5mm cyst(s)
+            </p>
+          </div>
+          <!--
 Paed Spine 
 -->
-<div class="tab-pane fade" id="spine" role="tabpanel">
-<h4>Spine</h4>
-<hr>
-<h5>Neurofibromatosis Type 1</h5>
-<p>Neurofibromatosis Type 1</p>
-<p>- No kyphoscoliosis, nerve root tumour, plexiform neurofibroma, dural ectasia nor intramedullary mass seen to suggest NF1.</p>
-<hr>
-<h5>Persistent Central Canal</h5>
-<p>PERSISTENT CENTRAL CANAL<br>
-- xxx mm long by xxx mm wide fusiform CSF collection at xxx.<br>
-- No change in the nearby cord with no mass, oedema nor significant expansion.<br>
-- No Chiari malformation or other aetiology seen. </p>
-<p>- This confirms the presence of a small and idiopathic persistent central spinal canal. Without associated symptoms, this does not need further consideration unless there is development of neuro symptoms or signs. </p>
-<text>Nelson 2022 says if no signs and no aetiology and <=3mm wide, then no need to follow up unless develops them.</text>
-</div>
-<!--
+          <div class="tab-pane fade" id="spine" role="tabpanel">
+            <h4>Spine</h4>
+            <hr>
+            <h5>Neurofibromatosis Type 1</h5>
+            <p>Neurofibromatosis Type 1</p>
+            <p>- No kyphoscoliosis, nerve root tumour, plexiform neurofibroma, dural ectasia nor intramedullary mass
+              seen to suggest NF1.</p>
+            <hr>
+            <h5>Persistent Central Canal</h5>
+            <p>PERSISTENT CENTRAL CANAL<br>
+              - xxx mm long by xxx mm wide fusiform CSF collection at xxx.<br>
+              - No change in the nearby cord with no mass, oedema nor significant expansion.<br>
+              - No Chiari malformation or other aetiology seen. </p>
+            <p>- This confirms the presence of a small and idiopathic persistent central spinal canal. Without
+              associated symptoms, this does not need further consideration unless there is development of neuro
+              symptoms or signs. </p>
+            <text>Nelson 2022 says if no signs and no aetiology and <=3mm wide, then no need to follow up unless
+                develops them.</text>
+          </div>
+          <!--
 Paed Something
 -->
-<div class="tab-pane fade" id="topic1" role="tabpanel">
-<h4>Something</h4>
-<hr>
-<h5>Subtitle</h5>
-<hr>
-</div>
-</div>
-    </div>
-  </div> <!-- class ="row"-->
-</div> <!--Container for whole body-->
+          <div class="tab-pane fade" id="topic1" role="tabpanel">
+            <h4>Something</h4>
+            <hr>
+            <h5>Subtitle</h5>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div> <!-- class ="row"-->
+  </div> <!--Container for whole body-->
 
 
-<!-- JavaScript bits-->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-crossorigin="anonymous"></script>
+  <!-- JavaScript bits-->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-<!---Put bespoke js here --->
-<script src="jackdaw.js"></script>
+  <!---Put bespoke js here --->
+  <script src="jackdaw.js"></script>
 </body>
 
 </html>
